@@ -25,7 +25,9 @@ Your job should look like this:
 ![JobResult](images/DefBuildJobResult.png)
 ## Default Deploy configuration
 This job allows you define the default build parameters i.e. the BCD Configuration and the target runtime (production, preproduction or integration).
-> Note: You can use the deploy job without configuring your default deploy configuration.
+::: info
+Note: You can use the deploy job without configuring your default deploy configuration.
+:::
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my default deploy parameters - LivingApp" job.
 2. Enter the BCD configuration you wish to use to deploy your default living application
 3. Select the runtime to deploy to.
