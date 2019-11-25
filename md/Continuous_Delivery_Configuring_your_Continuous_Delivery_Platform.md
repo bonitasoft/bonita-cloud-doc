@@ -1,4 +1,4 @@
-# Configuring your Continuous Delivery Service
+# Configuring your Continuous Delivery Platform
 All the jobs linked to configuration are grouped in the "Configuration" tab:
 ![CDConfigTab](/images/ConfigurationTab.png)
 ## Repository Credentials
