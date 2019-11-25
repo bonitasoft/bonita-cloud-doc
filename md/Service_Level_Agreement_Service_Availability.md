@@ -8,7 +8,7 @@ The Service is designed to be available to the customer 24 hours a day, 7 days a
 
 The overall service availability value is the defined by the following:
 
-![SLAFormula](/images/SLAFormula.png)
+![SLAFormula](images/SLAFormula.png)
 
 Where:
 * Uptime is the number of minutes the runtime is available

@@ -6,9 +6,9 @@ After subscribing to Bonita Cloud, you will be provided access to Bonita Cloud C
 
 Access the URL and use the given credential to connect:
 
-![CDLoginPage](/images/CD_LoginPage.png)
+![CDLoginPage](images/CD_LoginPage.png)
 ### Expected result
-![CDHome](/images/CD_LogHome.png)
+![CDHome](images/CD_LogHome.png)
 
 ## First Connection
 Please start by configuring your [Continous Delivery Service](Continuous Delivery - Configuring your Continuous Delivery Service.md)

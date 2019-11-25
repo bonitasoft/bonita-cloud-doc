@@ -6,7 +6,7 @@
   * [High Performance](Service_Level_Agreement_High_Performance.md)
   * [Data Management](Service_Level_Agreement_Data_Management.md)
 * [Building and deploying to Bonita Cloud](Continuous_Delivery.md)
-    * [Configuation](Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.md)
+    * [Configuration](Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.md)
     * [Building a Living Application](Continuous_Delivery_Building_a_Living_Application.md)
     * [Deploying a Living Application](Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.md)
     * [Build and deploy a Living Application](Continuous_Delivery_Build_and_deploy.md)

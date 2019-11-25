@@ -12,7 +12,7 @@ Bonita Cloud initial offer includes:
 * Support: Gold elite or platinium
 * Unlimited processes, cases, tasks, forms and applications
 
-![Overview](/images/BCLDOverview.png)
+![Overview](images/BCLDOverview.png)
 
 ## Service Regions
 Bonita Cloud is currently available in Europe and North America:

@@ -1,10 +1,10 @@
 # Build and deploy a living application to Bonita Cloud Non Production Runtimes
 This job combines the build and deploy jobs in to streamline your build and deploy process:
 
-![BuildAndDeployJob](/images/BuildDeployJob.png)
+![BuildAndDeployJob](images/BuildDeployJob.png)
 
 ## Launching a deployment
-1. Click on the ![CDPlayButton](/images/JenkinsPlayButton.png) of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
+1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
 2. Your default build and deploy configuration will be pre-loaded. If needed you can change it. 
 3. You still neeed to select the build you want to deploy. 
 You have several possibilities:
@@ -26,7 +26,7 @@ You have several possibilities:
 ### Successful deployment
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in th job history:
 
-![LinktoPortal](/images/LinkToPortal.png)
+![LinktoPortal](images/LinkToPortal.png)
 
 ### Failed deployment
 If the job fails then you need to open its logs to understand the issues.
