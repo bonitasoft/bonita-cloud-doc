@@ -1,0 +1,17 @@
+# Configurable elements
+The following items can be configured in Bonita Cloud:
+
+| Items|
+| ------------- |
+| **V**irtula **P**rivate **N**etwork setup|
+| **S**ingle **S**ign-**O**n|
+| URL customization|
+| LDAP synchronization setup|
+| Additonal backups|
+| Point in time recovery|
+| Extended backup retention period|
+| Additional database storage|
+| Additional outbound data|
+| Additional runtime (Production or Non Production)|
+
+Any request not included in items above can be submited to Bonitasoft for review.

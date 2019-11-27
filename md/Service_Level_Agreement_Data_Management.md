@@ -1,4 +1,7 @@
 # Data Management
+Your data is critical. Bonitasoft will provide all the tools and policies to make it secured and available.
+
+## Backups
 Data of every runtime backed up every night. Additional backups are possible upon customer request.
 
 ## Backups retention 
@@ -10,4 +13,4 @@ Data restorations are done through a request and may result in a scheduled maint
 Bonitasoft is not responsible of the functional impacts of the rollback.
 
 ## Data in transit
-Bonita Cloud offers data in transit encryption with the latest  HTTPS standard (TLS 1.3)
+Bonita Cloud offers data in transit encryption with the latest  HTTPS standard (TLS 1.3).

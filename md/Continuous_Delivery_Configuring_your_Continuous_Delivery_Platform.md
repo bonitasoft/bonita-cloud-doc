@@ -1,4 +1,6 @@
 # Configuring your Continuous Delivery Platform
+
+## Location of the configuration
 All the jobs linked to configuration are grouped in the "Configuration" tab:
 ![CDConfigTab](images/ConfigurationTab.png)
 ## Repository Credentials
@@ -13,7 +15,9 @@ This job allows you to configure your acess to Github but also the [BCD vault pa
 ![JobResult](images/CredentialsJobResult.png)
 ## Default Build configuration
 This job allows you define the default build parameters i.e. the repository URL, the branch and environment to build in order to avoid having to re-enter the same parameters in the build job.
-> Note: You can use the build job without configuring your default build configuration.
+::: info
+Note: You can use the build job without configuring your default build configuration.
+:::
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my default build parameters - LivingApp" job.
 2. Enter the URL to your Bonita living application repositiory (e.g. "https://github.com/acme/myGreatLivingApp.git").
 3. Then enter the branch you will be building most of the time.
@@ -31,7 +35,9 @@ Note: You can use the deploy job without configuring your default deploy configu
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my default deploy parameters - LivingApp" job.
 2. Enter the BCD configuration you wish to use to deploy your default living application
 3. Select the runtime to deploy to.
-> Note: the Bonita version is displayed next to the runtime name
+::: info
+Note: the Bonita version is displayed next to the runtime name.
+:::
 5. Click on the "Build" button to save the configuration
 6. Make sure the job was successful:
 ![JobResult](images/DefDeployJobResult.png)

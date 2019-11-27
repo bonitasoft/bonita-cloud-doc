@@ -4,11 +4,15 @@
 
 The Service is designed to be available to the customer 24 hours a day, 7 days a week, 365 days a year, except during system maintenance windows, unplanned downtime and as otherwise detailed in this chapter.
 
->Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall availability in each billing month for its production runtime.
+::: info
+Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall availability in each billing month for its production runtime.
+:::
 
 The overall service availability value is the defined by the following:
 
-![SLAFormula](images/SLAFormula.png)
+<div style="text-align:center">
+    <img src="cloud/images/master/SLAFormula.png"> 
+</div> 
 
 Where:
 * Uptime is the number of minutes the runtime is available
@@ -60,4 +64,4 @@ The service offers high availability for its production runtime.
 High availability includes:
 * Application redundancy (separate zone but region will remain the same) and load balancing
 * Data redundancy (separate zone and continuous backup)
-Network redundancy
+* Network redundancy

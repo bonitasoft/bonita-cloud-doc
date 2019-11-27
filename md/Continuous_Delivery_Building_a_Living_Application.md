@@ -1,9 +1,11 @@
 # Building a Living Application
+
+## Build Job
 The job "ACTION - Build a LivingApp" allows you build your living applications:
 
 ![BuildJob](images/BuildJob.png)
 
-## Launching a buid
+## Launching a build
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Build a LivingApp" job.
 2. Your default build configuration will be pre-loaded. If needed you can change it.
 3. Click on the build button (lower left).
