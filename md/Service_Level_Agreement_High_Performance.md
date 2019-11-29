@@ -12,5 +12,5 @@ Regardless of the number of users, the complexity of the cases, the number of ca
 **Note:** Bonitasoft cannot guarantee the high performance of all its components if the customer doesn't follow:
 * Bonitasoft best practices and recommendations
 * Bonitasoft support guidelines
-* However, Bonitasoft will use commercially reasonable efforts to ensure the performance of the components.
+However, Bonitasoft will use commercially reasonable efforts to ensure the performance of the components.
 :::
