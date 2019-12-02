@@ -3,7 +3,10 @@
 ## Deploy Job
 The job "ACTION - Deploy a LivingApp to a runtime" allows you deploy your living applications to any of your Bonita Cloud runtimes:
 
-![DeployJob](images/DeployJob.png)
+<div style="text-align:center">
+    <img src="cloud/images/master/DeployJob.png"> 
+</div>
+<!-- ![DeployJob](images/DeployJob.png) -->
 
 ## Launching a deployment
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Deploy a LivingApp to a runtime" job.
@@ -28,7 +31,11 @@ You have several possibilities:
 ### Successful deployment
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in th job history:
 
-![LinktoPortal](images/LinkToPortal.png)
+<div style="text-align:center">
+    <img src="cloud/images/master/LinkToPortal.png" width="100%"> 
+</div>
+
+<!-- ![LinktoPortal](images/LinkToPortal.png) -->
 
 ### Failed deployment
 If the job fails then you need to open its logs to understand the issues.

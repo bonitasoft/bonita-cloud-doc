@@ -3,7 +3,11 @@
 ## Build and deploy Job
 This job combines the build and deploy jobs in to streamline your build and deploy process:
 
-![BuildAndDeployJob](images/BuildDeployJob.png)
+<div style="text-align:center">
+    <img src="cloud/images/master/BuildDeployJob.png"> 
+</div>
+
+<!-- ![BuildAndDeployJob](images/BuildDeployJob.png) -->
 
 ## Launching a deployment
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
@@ -14,7 +18,7 @@ You have several possibilities:
     * Specifc build
     * Last Saved build
     * Upstream that triggered this job
-    * Donwstream build of
+    * Downstream build of
     * Last build with artifacts
     * Last completed build
     * Specified by permalink
@@ -28,7 +32,11 @@ You have several possibilities:
 ### Successful deployment
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in th job history:
 
-![LinktoPortal](images/LinkToPortal.png)
+<div style="text-align:center">
+    <img src="cloud/images/master/LinkToPortal.png" width="100%"> 
+</div>
+
+<!-- ![LinktoPortal](images/LinkToPortal.png) -->
 
 ### Failed deployment
 If the job fails then you need to open its logs to understand the issues.
