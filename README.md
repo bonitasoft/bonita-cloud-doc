@@ -28,7 +28,7 @@ This command requires one argument:
 
 **Example**: With application=`cloud`, generated HTML will contain `img` tags like:
 ```html
-<img src="cloud/images/latest/bcd_overview.png"/>
+<img src="cloud/images/latest/cloud_overview.png"/>
 ```
 
 Providing arguments to the HTML build command is done with one of the following syntaxes:
