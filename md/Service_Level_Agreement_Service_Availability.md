@@ -15,9 +15,9 @@ The overall service availability value is the defined by the following:
 </div> 
 
 Where:
-* Uptime is the number of minutes the runtime is available
-* Downtime is number of minutes in each month the runtime is not available (see service availability exclusions)
-* Total available time is number of minutes available in a given billing month (31 days: 44 640 minutes, 30 days: 43200 minutes, 29 days: 41760 minutes and 28 days: 40320 minutes)
+* Uptime is the number of minutes the runtime is available.
+* Downtime is number of minutes in each month the runtime is not available (see service availability exclusions).
+* Total available time is number of minutes available in a given billing month (31 days: 44 640 minutes, 30 days: 43200 minutes, 29 days: 41760 minutes and 28 days: 40320 minutes).
 
 ## Service availability exclusions
 The service availability does not include downtime periods due to the following:
@@ -62,6 +62,6 @@ However, Bonitasoft is not responsible of the customer network connection to pla
 The service offers high availability for its production runtime.
 
 High availability includes:
-* Application redundancy (separate zone but region will remain the same) and load balancing
-* Data redundancy (separate zone and continuous backup)
-* Network redundancy
+* Application redundancy (separate zone but region will remain the same) and load balancing.
+* Data redundancy (separate zone and continuous backup).
+* Network redundancy.

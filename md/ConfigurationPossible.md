@@ -8,7 +8,7 @@ The following items can be configured in Bonita Cloud:
 | URL customization|
 | LDAP synchronization setup|
 | Additonal backups|
-| Point in time recovery|
+| Runtime restoration|
 | Extended backup retention period|
 | Additional database storage|
 | Additional outbound data|
