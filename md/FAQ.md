@@ -42,6 +42,9 @@ List again + it is possible to move -->
 ### Which type of database does Bonita Cloud support ?
 Bonita Cloud supports Postgre.
 
+
+### I already have a continuous delivery platform, can I use it with Bonita Cloud ?
+Yes. Thanks to our Bonita Cloud Continuous Delivery add-on you can use your pre-existing tools to manage Bonita Cloud.
 <!-- ## Monitoring
 ### Who is monitoring Bonita Cloud ?
 

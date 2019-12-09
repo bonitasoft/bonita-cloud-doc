@@ -10,7 +10,7 @@ In case of disaster, Bonitasoft targets for its production runtime:
 
 * To recover the service within 15 minutes (**R**ecovery **T**ime **O**bjective: 15 minutes)
 ::: info
-Recovery Time Objective or RTO is a metric that helps to calculate how quickly Bonitasoft targets to recover its IT infrastructure and services following a disaster in order to maintain the customer’s business continuity
+Recovery Time Objective or RTO is a metric that helps to calculate how quickly Bonitasoft targets to recover its IT infrastructure and services following a disaster in order to maintain the customer’s business continuity.
 :::
 
 * To limit the data loss to 1 minute (**R**ecovery **P**oint **O**bjective: 1 minute)

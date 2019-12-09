@@ -6,7 +6,7 @@
   * [High Performance](Service_Level_Agreement_High_Performance.md)
   * [Data Management](Service_Level_Agreement_Data_Management.md)
 * [Managing Bonita Cloud](_ManageBC.md)
-    * [Configurable elements](ConfigurationPossbile.md)
+    * [Configurable elements](ConfigurationPossible.md)
 * [Continuous Delivery](_Continuous_Delivery.md)
     * [Overview](Continuous_Delivery_Overview.md)
     * [Access](Continuous_Delivery_Access.md)
