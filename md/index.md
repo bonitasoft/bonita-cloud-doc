@@ -4,7 +4,7 @@
 Welcome to **Bonita Cloud** documentation website! 
 :::
 
-Bonita Cloud offers all the values of the Bonita Entreprise platform and its BCD add-on without the hassle of managing the platform operations (upgrades, infracsture management...).
+Bonita Cloud offers all the values of the Bonita Entreprise platform and its BCD add-on without the hassle of managing the platform operations (upgrades, infrastructure management...).
 
 
 <div class="col-md-4">
