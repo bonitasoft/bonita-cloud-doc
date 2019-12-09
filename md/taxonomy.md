@@ -18,4 +18,5 @@
          * [Monitoring a job](Continuous_Delivery_Generic_Actions_Monitoring.md)
          * [Check the parameters of a job](Continuous_Delivery_Generic_Actions_Parameters.md)
          * [Replay a job](Continuous_Delivery_Generic_Actions_Replay.md)
+         * [Change your password](Continuous_Delivery_Generic_Actions_ChangePWD.md)
 * [Frequently Asked Questions](FAQ.md)
