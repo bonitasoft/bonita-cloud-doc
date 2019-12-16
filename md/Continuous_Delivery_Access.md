@@ -17,7 +17,7 @@ Access the URL and use the given credential to connect:
 
 
 ##### First Connection
-Please start by configuring your [Continous Delivery Service](Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.md)
+Please start by configuring your [Continuous Delivery Service](Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.md)
 
 ::: info
 We strongly recommand that you [change your password](Continuous_Delivery_Generic_Actions_ChangePWD.md).
