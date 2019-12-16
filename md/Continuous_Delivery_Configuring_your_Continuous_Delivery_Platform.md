@@ -19,7 +19,7 @@ This job allows you define the default build parameters i.e. the repository URL,
 Note: You can use the build job without configuring your default build configuration.
 :::
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my default build parameters - LivingApp" job.
-2. Enter the URL to your Bonita living application repositiory (e.g. "https://github.com/acme/myGreatLivingApp.git").
+2. Enter the URL to your Bonita living application repository (e.g. "https://github.com/acme/myGreatLivingApp.git").
 3. Then enter the branch you will be building most of the time.
 4. Finnaly input the environment (as defined in your project) you will be used when building.
 Your job should look like this:
