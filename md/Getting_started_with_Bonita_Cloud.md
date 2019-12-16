@@ -4,7 +4,7 @@ With Bonita Cloud starting a new project has never been easier:
 
 1. After receivng all the required technical credentials, ([create a Bonita Portal administrator for your runtimes] https://documentation.bonitasoft.com/bonita/7.10/first-steps-after-setup)
 
-2.download the Bonita Studio in your customer Portal ([Request a download](https://customer.bonitasoft.com/download/request)).
+2. Download the Bonita Studio in your customer Portal ([Request a download](https://customer.bonitasoft.com/download/request)).
 
 3. Develop your application within the studio ([Getting started](https://documentation.bonitasoft.com/bonita/7.10/_getting-started-tutorial)).
 
