@@ -21,11 +21,11 @@ Integration
 * ***customer name***-integration.bonitacloud.com
 
 #### Can I customize the URLs?
-Yes the URLs of the runtime can be customized upon request.
+Yes, the URLs of the runtime can be customized upon request.
 ### Can I configure a SSO ?
 Yes, Bonita Cloud supports several SSO protocols. 
 ### Can I configure a VPN? 
-Yes Bonita Clouds supports VPN.
+Yes, Bonita Clouds supports VPN.
 ### Service region
 #### What are possible regions for Bonita Cloud?
 Bonita Cloud is currently available in Europe and North America:
@@ -39,14 +39,14 @@ Bonita Cloud is currently available in Europe and North America:
 <!-- #### Can I move my platform from one region to another?
 List again + it is possible to move -->
 
-### Which type of database does Bonita Cloud support ?
+### Which type of database does Bonita Cloud support?
 Bonita Cloud supports Postgre.
 
 
-### I already have a continuous delivery platform, can I use it with Bonita Cloud ?
+### I already have a continuous delivery platform, can I use it with Bonita Cloud?
 Yes. Thanks to our Bonita Cloud Continuous Delivery add-on you can use your pre-existing tools to manage Bonita Cloud.
 <!-- ## Monitoring
 ### Who is monitoring Bonita Cloud ?
 
 ## Security
-### How is Bonitasoft managing security for Bonita Cloud ? -->
+### How is Bonitasoft managing security for Bonita Cloud? -->
