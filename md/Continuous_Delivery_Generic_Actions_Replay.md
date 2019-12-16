@@ -17,7 +17,7 @@ You can launch a job instance without changing its parameters thanks to the "Rep
 
 <!-- ![OpenJobInstance](images/OpenJobInstance.png) -->
 
-3. On side side panel, click on the "Replay" entry:
+3. On side panel, click on the "Replay" entry:
 
 <div style="text-align:center">
     <img src="cloud/images/master/ReplayAJob.png"> 

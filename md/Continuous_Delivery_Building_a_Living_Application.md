@@ -24,7 +24,7 @@ The job "ACTION - Build a LivingApp" allows you build your living applications:
 ## Result of a build
 
 ### Successful build
-If the job is successful, you can consult and download the artifacted created from the build.
+If the job is successful, you can consult and download the artifactes created from the build.
 
 You can either see them in the job overview or the detail of the specific build job instance:
 * Job Overview

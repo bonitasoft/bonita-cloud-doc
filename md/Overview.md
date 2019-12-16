@@ -36,6 +36,6 @@ Bonita Cloud is currently available in Europe and North America:
 :::info
 The infrastructure country does not imply that Bonitasoft technical support will be located in the same country.
 
-The legal jurisdiction of the infrastructure's country is applied
+The legal jurisdiction of the infrastructure's country is applied.
 It is the customer's responsibility to make sure they meet the legal requirements of the country.
 :::

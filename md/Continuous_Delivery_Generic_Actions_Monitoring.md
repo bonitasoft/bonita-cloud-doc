@@ -14,7 +14,7 @@ The result of the last job is displayed in next to the job:
 <!-- ![JobStatusLast](images/JobStatusLast.png) -->
 
 ### Console Output
-You can check the different actions and logs done in a job throught the "console output". This output can be view during or after the job execution.
+You can check the different actions and logs done in a job through the "console output". This output can be view during or after the job execution.
 
 1. Open the corresponding job by clicking on its title:
 
@@ -33,7 +33,7 @@ You can check the different actions and logs done in a job throught the "console
 
 <!-- ![OpenJobInstance](images/OpenJobInstance.png) -->
 
-3. On side side panel, click on the "Console Output" entry:
+3. On side panel, click on the "Console Output" entry:
 
 <div style="text-align:center">
     <img src="cloud/images/master/ConsoleOutputAction.png"> 

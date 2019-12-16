@@ -4,12 +4,12 @@
 All the jobs linked to configuration are grouped in the "Configuration" tab:
 ![CDConfigTab](images/ConfigurationTab.png)
 ## Repository Credentials
-This job allows you to configure your acess to Github but also the [BCD vault password](https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted).
+This job allows you to configure your access to Github but also the [BCD vault password](https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted).
 
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my credentials" job.
 2. Enter the GitHub user that will have access to your repositories
 3. Enter the corresponding password for that account.
-4. If you are planning to use hte BCD Vault then you can enter the vault password. This field can be left empty.
+4. If you are planning to use the BCD Vault, then you can enter the vault password. This field can be left empty.
 5. Click on the "Build" button to save the configuration
 6. Make sure the job was successful:
 ![JobResult](images/CredentialsJobResult.png)
@@ -19,9 +19,9 @@ This job allows you define the default build parameters i.e. the repository URL,
 Note: You can use the build job without configuring your default build configuration.
 :::
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "Configure my default build parameters - LivingApp" job.
-2. Enter the URL to your Bonita living application repositiory (e.g. "https://github.com/acme/myGreatLivingApp.git").
+2. Enter the URL to your Bonita living application repository (e.g. "https://github.com/acme/myGreatLivingApp.git").
 3. Then enter the branch you will be building most of the time.
-4. Finnaly input the environment (as defined in your project) you will be used when building.
+4. Finaly input the environment (as defined in your project) you will be used when building.
 Your job should look like this:
 ![BuildDefaultExample](images/BuildDefaultParameters.png)
 5. Click on the "Build" button to save the configuration
