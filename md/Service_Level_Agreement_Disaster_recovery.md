@@ -1,8 +1,8 @@
-# Disater recovery
+# Disaster recovery
 
 A disaster is any unplanned event that causes the total interruption of the production runtime.
 
-In order to protect your busines from such event, Bonita Cloud has put in place a **D**isaster **R**ecovery **P**lan.
+In order to protect your business from such event, Bonita Cloud has put in place a **D**isaster **R**ecovery **P**lan.
 
 The goal of our disaster recovery plan is to guarantee the continuity of the customer business.
 
