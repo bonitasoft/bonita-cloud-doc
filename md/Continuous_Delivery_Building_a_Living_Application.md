@@ -78,7 +78,7 @@ The below build job has failed
 In order to get more information on the issue, all you need to is click on the step that failed and information on the error will be displayed:
 
 <div style="text-align:center">
-    <img src="cloud/images/master/Job158FailedLogs.png.png"> 
+    <img src="cloud/images/master/Job158FailedLogs.png"> 
 </div>
 
 <!-- ![Job158FailedLogs](images/Job158FailedLogs.png) -->
