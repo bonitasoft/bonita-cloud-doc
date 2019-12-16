@@ -26,7 +26,7 @@ The service availability does not include downtime periods due to the following:
 * Failures resulting from actions, scripts, data, applications, connectors, tests directed, provided or performed by the customer or any third party on behalf of the customer
 * Suspension due to overdue payments
 * Termination of the agreement
-* Factors outside Bonitasoft reasonable control(Force majeure events):
+* Factors outside Bonitasoft reasonable control (Force majeure events):
   *  Strikes or labor disputes
   * Changes resulting from government political
   * Regulatory actions or court orders
