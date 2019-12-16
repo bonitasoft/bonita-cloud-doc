@@ -1,6 +1,6 @@
 # Changing your password
 
-1. In the home page, click on your user name in the top right of the page:
+1. In the home page, click on your username in the top right of the page:
 
 <div style="text-align:center">
     <img src="cloud/images/master/OpenUserSetup.png"> 
