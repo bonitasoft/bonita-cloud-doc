@@ -2,7 +2,7 @@
 
 With Bonita Cloud starting a new project has never been easier:
 
-1. After receivng all the required technical credentials, [create a Bonita Portal administrator for your runtimes](https://documentation.bonitasoft.com/bonita/7.10/first-steps-after-setup)
+1. After receiving all the required technical credentials, [create a Bonita Portal administrator for your runtimes](https://documentation.bonitasoft.com/bonita/7.10/first-steps-after-setup)
 
 2. Download the Bonita Studio in your customer Portal ([Request a download](https://customer.bonitasoft.com/download/request)).
 
