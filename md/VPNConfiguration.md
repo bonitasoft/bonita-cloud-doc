@@ -25,7 +25,7 @@ Bonitasoft will guarantee the availability of the VPN gateway on the Bonita Clou
 Create a new support case to request a VPN connection with Bonita Cloud. Make sure to provide the following information in your case:
 * VPN gateway type
 * Gateway public IP address
-* Encryption algorithms(AES-128, AES-256)
+* Encryption algorithms (AES-128, AES-256)
 * Integrity Algorithms(SHA1, SHA2-256)
 * Authentification modes (pre-shared key/digital signature)
 * Diffie-Hellman group (2, 5, 14...)
