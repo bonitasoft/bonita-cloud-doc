@@ -19,8 +19,6 @@ By default, Bonita Cloud will allow connections from the public internet and the
 
 If needed, only the traffic coming from the VPN can be allowed. In this case, only the users connected to the VPN will be able to access your applications
 
-## Going traffic
-
 ## Impacts on the availability
 Bonitasoft will guarantee the availability of the VPN gateway on the Bonita Cloud side. However, Bonitasoft is not responsible for issues on the customer side of the VPN (unreachable data for Bonita or impossibility for the customer’s user to connect to the VPN).
 
