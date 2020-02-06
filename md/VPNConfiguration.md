@@ -4,10 +4,7 @@ To connect your private network to Bonita Cloud, you can request for a site-to-s
 
 It will secure the access to your applications in Bonita Cloud (only the users connected to VPN will be able to access them) and it will also allow Bonita to interact with your other systems.
 
-<div style="text-align:center">
-    <img src="cloud/images/master/DiagVPN.png" height="70%" width="70%"> 
-</div>
-<!-- ![VPNCloud](images/DiagVPN.png) -->
+![VPNCloud](images/DiagVPN.png)
 
 Bonita Cloud supports Internet Protocol security (IPsec) VPN connections.
 
