@@ -18,8 +18,8 @@ With Bonita Cloud no need to install any runtime, they're already available in o
 
 
    ::: info 
-   We recommand to use the non-production runtime as follows:
-   * Integration: for tests by development team with test data 
+   We recommend to use the non-production runtime as follows:
+   * Integration: for tests by the development team with test data 
    * Pre-production: for tests by the final or test users with production-like data.
    :::
 
