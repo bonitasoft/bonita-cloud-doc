@@ -8,6 +8,7 @@
 * [Managing Bonita Cloud](_ManageBC.md)
     * [Configurable elements](ConfigurationPossible.md)
     * [Connecting Bonita Cloud to your VPN](VPNConfiguration.md)
+    * [LDAP Synchronization setup](LDAPConfiguration.md)
 * [Continuous Delivery](_Continuous_Delivery.md)
     * [Overview](Continuous_Delivery_Overview.md)
     * [Access](Continuous_Delivery_Access.md)
