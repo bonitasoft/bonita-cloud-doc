@@ -1,4 +1,4 @@
-#Synchronize your organization groups and users
+# Synchronize your organization groups and users
 
 To avoid managing users in both Bonita and your authentification system, you can request the setup of a LDAP synchronizer in Bonita Cloud.
 
