@@ -1,6 +1,6 @@
 # Single Sign-On Configuration
 
-To simplify the access to your Bonita applications and processes, you can request the setup of an Single Sign On authentification for Bonita Cloud.
+To simplify the access to your Bonita applications and processes, you can request the setup of a Single Sign On authentification for Bonita Cloud.
 
 Bonita Cloud currently supports SAML protocol. 
 
