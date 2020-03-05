@@ -13,7 +13,7 @@ The LDAP synchronization service keeps the Bonita BPM organization information s
 Create a new support case to request a LDAP Synchronization with Bonita Cloud. Make sure to provide the following information in your case:
 * Your LDAP server URL
 * The Runtime to synchronize
-* LDAP authentication type(supported values: none, simple or strong)
-* Distinguished name(DN) of the user account used for browsing through the LDAP users
-* Type of the user object("user" for an Active Directory, "person" for an LDAP)
+* LDAP authentication type (supported values: none, simple or strong)
+* Distinguished name (DN) of the user account used for browsing through the LDAP users
+* Type of the user object ("user" for an Active Directory, "person" for an LDAP)
 * The desired synchronization frequency
