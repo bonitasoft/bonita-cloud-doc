@@ -7,7 +7,7 @@ This job combines the build and deploy jobs in to streamline your build and depl
     <img src="cloud/images/master/BuildDeployJob.png"> 
 </div>
 
-<!-- ![BuildAndDeployJob](images/BuildDeployJob.png) -->
+::: Only the Development deployment policy is avaivable with the build & deploy job :::
 
 ## Launching a deployment
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
