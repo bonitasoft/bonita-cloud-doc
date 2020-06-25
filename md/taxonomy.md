@@ -19,6 +19,7 @@
          * [Non Production Runtimes](Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.md)
          * [Production Runtimes](Continuous_Delivery_Building_a_Living_Application_Prod.md)
     * [Build and deploy a Living Application](Continuous_Delivery_Build_and_deploy.md)
+    * [Retrieve Bonita runtime logs](Retrieve_Bonita_runtime_logs.md)
     * [Basic actions](Continuous_Delivery_Generic_Actions.md)
          * [Monitoring a job](Continuous_Delivery_Generic_Actions_Monitoring.md)
          * [Check the parameters of a job](Continuous_Delivery_Generic_Actions_Parameters.md)
