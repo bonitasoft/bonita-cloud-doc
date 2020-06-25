@@ -15,7 +15,7 @@
     * [Access](Continuous_Delivery_Access.md)
     * [Configuration](Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.md)
     * [Building a Living Application](Continuous_Delivery_Building_a_Living_Application.md)
-    * [Deploying a Living Application](_Deploying a Living Application)
+    * [Deploying a Living Application](_Deploying a Living Application.md)
          * [Non Production Runtimes](Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.md)
          * [Production Runtimes](Continuous_Delivery_Building_a_Living_Application_Prod.md)
     * [Build and deploy a Living Application](Continuous_Delivery_Build_and_deploy.md)
