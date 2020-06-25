@@ -1,12 +1,15 @@
 # Deploying a Living Application to Bonita Cloud Non Production Runtimes
 
 ## Deploy Job
-The job "ACTION - Deploy a LivingApp to a runtime" allows you deploy your living applications to any of your Bonita Cloud runtimes:
+The job "ACTION - Deploy a LivingApp to a runtime" allows you deploy your living applications to any of your Bonita Cloud runtimes with the development or production polices:
 
 <div style="text-align:center">
     <img src="cloud/images/master/DeployJob.png"> 
 </div>
-<!-- ![DeployJob](images/DeployJob.png) -->
+
+<div style="text-align:center">
+    <img src="cloud/images/master/NonProdBuildForm.jpg"> 
+</div>
 
 ## Launching a deployment
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Deploy a LivingApp to a runtime" job.
