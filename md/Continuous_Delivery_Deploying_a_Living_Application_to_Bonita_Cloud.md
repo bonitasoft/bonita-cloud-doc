@@ -25,9 +25,18 @@ You have several possibilities:
     * Last completed build
     * Specified by permalink
     * Copy from WORKSPACE of latest completed build
-4. You can also require an extra validation after the artifact copy by ticking the "Confirm deploy" checkbox.
-5. Click on the build button (lower left).
-6. You should see the job progress and steps.
+4. Select the target runtime (note that only non-production runtimes are available - to deploy in production see [here](Continuous_Delivery_Building_a_Living_Application_Prod.md))
+5. You can also select the deployment policies to apply.
+::: info 
+|Deployment mode   |Development(default)                                 |Production(checkbox ticked)                            |
+|Applications      |<code class="descclassname">REPLACE_DUPLICATES</code>|<code class="descclassname">REPLACE_DUPLICATES</code>  |
+|Organization      |<code class="descclassname">MERGE_DUPLICATES</code>  |<code class="descclassname">IGNORE_DUPLICATES</code>   |
+|Processes         |<code class="descclassname">REPLACE_DUPLICATES</code>|<code class="descclassname">IGNORE_DUPLICATES</code>   |
+|Profiles          |<code class="descclassname">REPLACE_DUPLICATES</code>|<code class="descclassname">IGNORE_IF_ANY_EXISTS</code>|
+:::
+6. For troubleshooting purposes, you can active the "Debug_mode" option to activate the debug verbose mode.
+7. Click on the build button (lower left).
+8. You should see the job progress and steps.
 
 ## Result of a deployment
 
