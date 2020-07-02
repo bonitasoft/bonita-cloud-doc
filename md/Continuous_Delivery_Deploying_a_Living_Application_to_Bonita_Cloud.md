@@ -16,15 +16,15 @@ The job "ACTION - Deploy a LivingApp to a runtime" allows you to deploy your liv
 2. Your default deploy configuration will be pre-loaded. If needed you can change it. 
 3. You still need to select the build you want to deploy. 
 You have several possibilities:
-    * Last succesul build
-    * Specifc build
+    * Last successful build
+    * Specific build
     * Last Saved build
     * Upstream that triggered this job
-    * Donwstream build of
+    * Downstream build of
     * Last build with artifacts
     * Last completed build
     * Specified by permalink
-    * Copy from WORKSPACE of latest completed build
+    * Copy from WORKSPACE of the latest completed build
 4. Select the target runtime (note that only non-production runtimes are available - to deploy in production see [here](Continuous_Delivery_Building_a_Living_Application_Prod.md))
 5. You can also select the deployment policies to apply.
 
@@ -39,7 +39,7 @@ You have several possibilities:
 
 :::
 
-6. For troubleshooting purposes, you can active the "Debug_mode" option to activate the debug verbose mode.
+6. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 7. Click on the build button (lower left).
 8. You should see the job progress and steps.
 
