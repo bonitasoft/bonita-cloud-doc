@@ -31,7 +31,8 @@ You have several possibilities:
 7. You should see the job progress and steps.
 
 ::: info The production deployment will be used
-|Deployment mode   |Production                                             |
+|Artifact          |Policy                                                 |
+|------------------|-------------------------------------------------------|
 |Applications      |<code class="descclassname">REPLACE_DUPLICATES</code>  |
 |Organization      |<code class="descclassname">IGNORE_DUPLICATES</code>   |
 |Processes         |<code class="descclassname">IGNORE_DUPLICATES</code>   |
