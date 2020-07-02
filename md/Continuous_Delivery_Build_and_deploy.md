@@ -24,7 +24,7 @@ This job combines the build and deploy jobs to streamline your build and deploy 
 
 :::
 
-5. For troubleshooting purposes, you can active the "Debug_mode" option to activate the debug verbose mode.
+5. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 6. Click on the build button (lower left).
 7. You should see the job progress and steps.
 
