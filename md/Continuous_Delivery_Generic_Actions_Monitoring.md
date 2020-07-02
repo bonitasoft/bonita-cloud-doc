@@ -1,7 +1,7 @@
 # Monitoring a job
 
 ## Last job result information
-The result of the last job is displayed in next to the job:
+The result of the last job is displayed next to the job:
  *  ![Inprogress](images/JobStatusInProgress.png): Job is in progress
  *  ![JobOK](images/JobStatusOK.png): Last job was successful
  *  ![JobKO](images/JobStatusFailed.png): Last job was unsuccessful
@@ -33,7 +33,7 @@ You can check the different actions and logs done in a job through the "console 
 
 <!-- ![OpenJobInstance](images/OpenJobInstance.png) -->
 
-3. On side panel, click on the "Console Output" entry:
+3. On the side panel, click on the "Console Output" entry:
 
 <div style="text-align:center">
     <img src="cloud/images/master/ConsoleOutputAction.png"> 
