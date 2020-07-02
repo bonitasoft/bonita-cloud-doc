@@ -15,7 +15,7 @@ This job combines the build and deploy jobs to streamline your build and deploy 
 
 ::: info 
 
-|Deployment mode   |Development(default)                                 |Production(checkbox ticked)                            |
+|Artifact         |Development Policy(default)                           |Production Polict(checkbox ticked)                     |
 |------------------|-----------------------------------------------------|-------------------------------------------------------|
 |Applications      |<code class="descclassname">REPLACE_DUPLICATES</code>|<code class="descclassname">REPLACE_DUPLICATES</code>  |
 |Organization      |<code class="descclassname">MERGE_DUPLICATES</code>  |<code class="descclassname">IGNORE_DUPLICATES</code>   |
