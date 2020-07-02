@@ -1,7 +1,7 @@
 # Deploying a Living Application to Bonita Cloud Production Runtimes
 
 ## Deploy Job
-The job "ACTION - Deploy a LivingApp to a production runtime" allows you deploy your living applications to any of your **production** Bonita Cloud runtimes:
+The job "ACTION - Deploy a LivingApp to a production runtime" allows to you deploy your living applications to any of your **production** Bonita Cloud runtimes:
 
 <div style="text-align:center">
     <img src="cloud/images/master/DeployProdJob.png"> 
@@ -16,17 +16,17 @@ The job "ACTION - Deploy a LivingApp to a production runtime" allows you deploy 
 2. Your default deploy configuration will be pre-loaded. If needed you can change it. 
 3. You still need to select the build you want to deploy. 
 You have several possibilities:
-    * Last succesul build
-    * Specifc build
+    * Last successul build
+    * Specific build
     * Last Saved build
     * Upstream that triggered this job
-    * Donwstream build of
+    * Downstream build of
     * Last build with artifacts
     * Last completed build
     * Specified by permalink
-    * Copy from WORKSPACE of latest completed build
+    * Copy from WORKSPACE of the latest completed build
 4. Select the target runtime (note that only production runtimes are available - to deploy on non-production runtimes see [here](Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.md))
-5. For troubleshooting purposes, you can active the "Debug_mode" option to activate the debug verbose mode.
+5. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 6. Click on the build button (lower left).
 7. You should see the job progress and steps.
 
