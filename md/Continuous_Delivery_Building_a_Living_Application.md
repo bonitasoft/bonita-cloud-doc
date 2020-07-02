@@ -1,7 +1,7 @@
 # Building a Living Application
 
 ## Build Job
-The job "ACTION - Build a LivingApp" allows you build your living applications:
+The job "ACTION - Build a LivingApp" allows you to build your living applications:
 
 <div style="text-align:center">
     <img src="cloud/images/master/BuildJob.png"> 
@@ -24,7 +24,7 @@ The job "ACTION - Build a LivingApp" allows you build your living applications:
 ## Result of a build
 
 ### Successful build
-If the job is successful, you can consult and download the artifactes created from the build.
+If the job is successful, you can consult and download the artifacts created from the build.
 
 You can either see them in the job overview or the detail of the specific build job instance:
 * Job Overview
@@ -38,7 +38,7 @@ Warning if your last job fails, it will still display the last successful artifa
   </div>
   <!-- ![BuildClickToAccessOverview](images/BuildClickToAccessOverview.png) -->
 
-  * In the top of the page, you will find the last successful build artefacts
+  * In the top of the page, you will find the last successful build artifacts
   
   <div style="text-align:center">
     <img src="cloud/images/master/OverviewArtefacts.png"> 
@@ -75,7 +75,7 @@ The below build job has failed
 </div>
 <!-- ![Job158Failed](images/Job158Failed.png) -->
 
-In order to get more information on the issue, all you need to is click on the step that failed and information on the error will be displayed:
+To get more information on the issue, click on the step that failed and information on the error will be displayed:
 
 <div style="text-align:center">
     <img src="cloud/images/master/Job158FailedLogs.png"> 
@@ -83,7 +83,7 @@ In order to get more information on the issue, all you need to is click on the s
 
 <!-- ![Job158FailedLogs](images/Job158FailedLogs.png) -->
 
-If this isn't enough than you can click on the "Logs" button to have the full logs:
+If this isn't enough then you can click on the "Logs" button to have the full logs:
 
 <div style="text-align:center">
     <img src="cloud/images/master/Job158FailedLogsDetails.png"> 
