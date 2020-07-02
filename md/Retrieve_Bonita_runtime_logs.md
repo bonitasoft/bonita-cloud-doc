@@ -16,7 +16,7 @@ The job "ACTION - Retrieve Bonita runtime logs" allows you to retrieve the logs 
 </div>
 
 3. Click on the "Build" button to request the logs
-4. When the job is finished, the job will have build artififact that contains the logs
+4. When the job is finished, the job will have a build artififact that contains the logs
 
 <div style="text-align:center">
     <img src="cloud/images/master/LogsArtifact.png"> 
