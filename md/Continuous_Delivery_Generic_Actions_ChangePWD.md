@@ -14,7 +14,7 @@
 </div>
 
 
-3. Search for the "Password" section, enter your new password and click on save to apply the new configuration
+3. Search for the "Password" section, enter your new password and click on "Save" to apply the new configuration
 
 <div style="text-align:center">
     <img src="cloud/images/master/NewPWD.png"> 
