@@ -9,7 +9,7 @@ This job combines the build and deploy jobs in to streamline your build and depl
 
 ## Launching a deployment
 1. Click on the ![CDPlayButton](images/JenkinsPlayButton.png) of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
-2. Your default build and deploy configuration will be pre-loaded. If needed you can change it (repository URL, branch...)
+2. Your default build and deploy configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
 3. Select the target runtime (note that only non-production runtimes are available - to deploy in production see [here](Continuous_Delivery_Building_a_Living_Application_Prod.md))
 4. You can also select the deployment policies to apply.
 ::: info 
