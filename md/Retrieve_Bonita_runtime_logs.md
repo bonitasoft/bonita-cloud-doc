@@ -1,7 +1,7 @@
 # Retrieve Bonita Runtime Logs
 
 ## Retrieve Bonita Logs Job
-The job "ACTION - Retrieve Bonita runtime logs" to retrieve the logs of your Bonita runtime.
+The job "ACTION - Retrieve Bonita runtime logs" allows you to retrieve the logs of your Bonita runtime.
 
 <div style="text-align:center">
     <img src="cloud/images/master/RetrieveLogsEntryPoint.png"> 
