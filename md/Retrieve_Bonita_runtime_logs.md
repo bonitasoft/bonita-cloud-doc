@@ -12,7 +12,7 @@ The job "ACTION - Retrieve Bonita runtime logs" allows you to retrieve the logs 
 2. This will open a form that enables you to configure the time range of the logs, the output format of the log file (csv or json) and  the target runtime
 
 <div style="text-align:center">
-    <img src="cloud/images/master/ProdBuildForm.png"> 
+    <img src="cloud/images/master/RetrieveLogsJob.png"> 
 </div>
 
 3. Click on the "Build" button to request the logs
