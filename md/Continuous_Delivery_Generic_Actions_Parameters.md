@@ -13,7 +13,7 @@
 </div>
 <!-- ![OpenJobInstance](images/OpenJobInstance.png) -->
 
-3. On side panel, click on the "Parameters" entry:
+3. On the side panel, click on the "Parameters" entry:
 
 <div style="text-align:center">
     <img src="cloud/images/master/AccessParameters.png"> 
