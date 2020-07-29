@@ -10,8 +10,6 @@ The following items can be configured in Bonita Cloud:
 | Additonal backups|
 | Runtime restoration|
 | Extended backup retention period|
-| **S**imple **M**ail **T**ransfer **P**rotocol server|
-| **S**ecure **F**ile **T**ransfer Protocol server|
 | Additional database storage|
 | Additional outbound data|
 | Additional runtime (Production or Non Production)|
