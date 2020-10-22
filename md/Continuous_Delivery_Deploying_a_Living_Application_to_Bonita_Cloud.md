@@ -30,7 +30,7 @@ You have several possibilities:
 
 ::: info 
 
-|Artifact         |Development Policy(default)                           |Production Polict(checkbox ticked)                     |
+|Artifact         |Development Policy(default)                           |Production Policy(checkbox ticked)                     |
 |------------------|-----------------------------------------------------|-------------------------------------------------------|
 |Applications      |<code class="descclassname">REPLACE_DUPLICATES</code>|<code class="descclassname">REPLACE_DUPLICATES</code>  |
 |Organization      |<code class="descclassname">MERGE_DUPLICATES</code>  |<code class="descclassname">IGNORE_DUPLICATES</code>   |
