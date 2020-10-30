@@ -11,9 +11,11 @@ In order to have an URL that uses a domain different from the default one (* bon
 
 Create a new support case to request a URL Customization of your Bonita Cloud. Make sure to provide the following information in your case:
 * The domain or sub-domain to delegate to Bonita
+
 :::info 
 **Note:** Currently the same domain must be applied to all environment
 :::
+
 * The current and new environment URL:
 
 |Environment    |Current URL                                           |New URL                              |
