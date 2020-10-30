@@ -3,7 +3,7 @@
 You can request to customize your domain to have an URL that uses a domain different from the default one (* bonitacloud.com).
 
 :::info 
-**Note:** You will need to own the targeted domain and delegate its management to Bonita.
+**Note:** You will need to own the targeted domain or subdomain and delegate its management to Bonita.
 :::
 
 ## Requesting a URL customization
