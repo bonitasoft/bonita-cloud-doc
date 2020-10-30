@@ -15,9 +15,11 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 **Note:** Currently the same domain must be applied to all environment
 :::
 * The current and new environment URL:
-|Environment    |Current URL                                           |New URL        |
-|---------------|------------------------------------------------------|---------------|
-|Integration    |*customer-name-integration.bonitacloud.com*           |               |
-|Pre-production |*Example: customer-name-preproduction.bonitacloud.com*|               |
-|Production     |*Example: customer-name.bonitacloud.com*              |               |
-|...            |                                                      |               |
+
+|Environment    |Current URL                                           |New URL                              |
+|---------------|------------------------------------------------------|-------------------------------------|
+|Integration    |*Example: customer-name-integration.bonitacloud.com*  |*Example: integration.mydomain.com*  |
+|Pre-production |*Example: customer-name-preproduction.bonitacloud.com*|*Example: preproduction.mydomain.com*|
+|Production     |*Example: customer-name.bonitacloud.com*              |*Example: projectname.mydomain.com*  |
+|...            |                                                      |                                     |
+
