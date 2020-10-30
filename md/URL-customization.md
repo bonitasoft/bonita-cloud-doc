@@ -1,10 +1,9 @@
 # URL customization
 
-In order to have an URL that uses a domain different from the default one (* bonitacloud.com), you can request for a domain customization
-
+You can request to customize your domain to have an URL that uses a domain different from the default one (* bonitacloud.com).
 
 :::info 
-**Note:** You will need own the targeted domain and delegate its manage to Bonita.
+**Note:** You will need to own the targeted domain and delegate its management to Bonita.
 :::
 
 ## Requesting a URL customization
@@ -13,7 +12,7 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 * The domain or sub-domain to delegate to Bonita
 
 :::info 
-**Note:** Currently the same domain must be applied to all environment
+**Note:** The same domain must be applied to all environments.
 :::
 
 * The current and new environment URL:
@@ -25,3 +24,6 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 |Production     |*Example: customer-name.bonitacloud.com*              |*Example: projectname.mydomain.com*  |
 |...            |                                                      |                                     |
 
+Bonita will provide the corresponding DNS configuration(Name Server) to delegate your domain or subdomain.
+
+Bonita manages the certificate lifecycle (request, validation, and renewal).
