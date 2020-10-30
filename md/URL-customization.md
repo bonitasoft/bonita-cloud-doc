@@ -15,7 +15,7 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 **Note:** The same domain must be applied to all environments.
 :::
 
-* The current and new environment URL:
+* The current and new environment **F**ully **Q**ualified **D**omain **N**ame:
 
 |Environment    |Current URL                                           |New URL                              |
 |---------------|------------------------------------------------------|-------------------------------------|
