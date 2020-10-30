@@ -24,6 +24,6 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 |Production     |*Example: customer-name.bonitacloud.com*              |*Example: projectname.mydomain.com*  |
 |...            |                                                      |                                     |
 
-Bonita will provide the corresponding DNS configuration(Name Server) to delegate your domain or subdomain.
+Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain.
 
 Bonita manages the certificate lifecycle (request, validation, and renewal).
