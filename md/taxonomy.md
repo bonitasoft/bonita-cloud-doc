@@ -10,6 +10,7 @@
     * [Connecting Bonita Cloud to your VPN](VPNConfiguration.md)
     * [LDAP Synchronization setup](LDAPConfiguration.md)
     * [Single Sign-On Configuration](SSOConfiguration.md)
+    * [URL customization](URL-customization.md)
 * [Continuous Delivery](_Continuous_Delivery.md)
     * [Overview](Continuous_Delivery_Overview.md)
     * [Access](Continuous_Delivery_Access.md)
