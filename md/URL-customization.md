@@ -17,7 +17,7 @@ Create a new support case to request a URL Customization of your Bonita Cloud. M
 
 * The current and new environment **F**ully **Q**ualified **D**omain **N**ame:
 
-|Environment    |Current URL                                           |New URL                              |
+|Environment    |Current FQDN                                           |New FQDN                              |
 |---------------|------------------------------------------------------|-------------------------------------|
 |Integration    |*Example: customer-name-integration.bonitacloud.com*  |*Example: integration.mydomain.com*  |
 |Pre-production |*Example: customer-name-preproduction.bonitacloud.com*|*Example: preproduction.mydomain.com*|
