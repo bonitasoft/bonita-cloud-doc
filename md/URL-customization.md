@@ -32,4 +32,8 @@ Then create a new support case to request a URL Customization of your Bonita Clo
 
 Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain.
 
+:::info
+**Note:** To limit the time to take DNS changes into account, ensure to minimize the TTL of NS entries (300 seconds for example) before delegating your domain to Bonita Name Servers.
+:::
+
 Bonita manages the certificate lifecycle (request, validation, and renewal).
