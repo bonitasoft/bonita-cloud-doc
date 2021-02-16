@@ -24,9 +24,9 @@ If the job is successful, you can consult and download the artifacts created fro
 You can either see them in the job overview or the detail of the specific build job instance:
 
 * Job Overview
-::: warning
-Warning if your last job fails, it will still display the last successful artifacts.
-:::
++
+WARNING: if your last job fails, it will still display the last successful artifacts.
++
  ** Open the job by clicking on its title
 +
 image::images/BuildClickToAccessOverview.png[]
@@ -36,9 +36,9 @@ image::images/BuildClickToAccessOverview.png[]
 image::images/OverviewArtefacts.png[]
 +
 * Job instance detail
- ::: info
- This also allows you to consult previous build result
- :::
++
+NOTE: This also allows you to consult previous build result
++
  ** Open the specific job instance by click on its ID
 +
 image::images/AccessJobDetails.png[]

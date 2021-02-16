@@ -12,8 +12,9 @@ image::images/BuildDeployJob.png[]
 . Your default build and deploy configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
 . Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Building_a_Living_Application_Prod.adoc[here])
 . You can also select the deployment policies to apply.
-
-::: info
++
+[NOTE]
+====
 
 |===
 | Artifact | Development Policy(default) | Production Polict(checkbox ticked)
@@ -35,8 +36,8 @@ image::images/BuildDeployJob.png[]
 | `IGNORE_IF_ANY_EXISTS`
 |===
 
-:::
-
+====
++
 . For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 . Click on the build button (lower left).
 . You should see the job progress and steps.

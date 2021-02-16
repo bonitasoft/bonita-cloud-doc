@@ -4,9 +4,8 @@ To simplify the access to your Bonita applications and processes, you can reques
 
 Bonita Cloud currently supports SAML protocol.
 
-:::info
-*Note:* You will need a SAML Identity Provider server up and running
-:::
+NOTE: You will need a SAML Identity Provider server up and running
+
 
 == Requesting Single-Sign-On authentication
 

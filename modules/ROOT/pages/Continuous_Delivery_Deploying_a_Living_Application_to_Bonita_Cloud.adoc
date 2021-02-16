@@ -26,8 +26,8 @@ You have several possibilities:
 . Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Building_a_Living_Application_Prod.adoc[here])
 . You can also select the deployment policies to apply.
 
-::: info
-
+[NOTE]
+====
 |===
 | Artifact | Development Policy(default) | Production Policy(checkbox ticked)
 
@@ -47,8 +47,8 @@ You have several possibilities:
 | `REPLACE_DUPLICATES`
 | `IGNORE_IF_ANY_EXISTS`
 |===
+====
 
-:::
 
 . For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 . Click on the build button (lower left).

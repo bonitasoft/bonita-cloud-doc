@@ -4,9 +4,8 @@
 
 The Service is designed to be available to the customer 24 hours a day, 7 days a week, 365 days a year, except during system maintenance windows, unplanned downtime and as otherwise detailed in this chapter.
 
-::: info
-Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall availability in each billing month for its production runtime.
-:::
+NOTE: Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall availability in each billing month for its production runtime.
+
 
 The overall service availability value is defined by the following:
 
