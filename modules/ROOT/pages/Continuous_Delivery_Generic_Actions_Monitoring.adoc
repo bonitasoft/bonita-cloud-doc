@@ -8,8 +8,7 @@ The result of the last job is displayed next to the job:
 * image:images/JobStatusOK.png[JobOK]: Last job was successful
 * image:images/JobStatusFailed.png[JobKO]: Last job was unsuccessful
 
-[discrete]
-==== Example
+_Example_
 
 image::images/JobStatusLast.png[,100%]
 

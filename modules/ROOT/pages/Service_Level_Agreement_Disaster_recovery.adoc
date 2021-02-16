@@ -17,6 +17,6 @@ Recovery Time Objective or RTO is a metric that helps to calculate how quickly B
 NOTE: Recovery Point Objective or RPO is a metric to define the maximum tolerable amount of data that can be lost following a disaster.
 
 
-==== Bonita Cloud Disaster Recovery
+== Bonita Cloud Disaster Recovery
 
 image::images/RTO_RPO.png[,100%]
