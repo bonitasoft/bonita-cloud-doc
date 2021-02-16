@@ -1,0 +1,15 @@
+= Changing your password
+
+. In the home page, click on your username in the top right of the page:
+
+image::cloud/images/master/OpenUserSetup.png[]
+
+. Open the "Configure" page:
+
+image::cloud/images/master/ConfigureEntryPoint.png[]
+
+. Search for the "Password" section, enter your new password and click on "Save" to apply the new configuration
+
+image::cloud/images/master/NewPWD.png[]
+
+. Reconnect with the new password

@@ -1,0 +1,27 @@
+= Replay a job
+
+You can launch a job instance without changing its parameters thanks to the "Replay" action.
+
+. Open the corresponding job by clicking on its title:
+
+image::cloud/images/master/OpenAJob.gif[]
+
+// [OpenAJob](images/OpenAJob.gif)
+
+. Open the corresponding job instance by click on its ID in the main list or side list
+
+image::cloud/images/master/OpenJobInstance.png[]
+
+// [OpenJobInstance](images/OpenJobInstance.png)
+
+. On side panel, click on the "Replay" entry:
+
+image::cloud/images/master/ReplayAJob.png[]
+
+// [ReplayAJob](images/ReplayAJob.png)
+
+. Click on the run button and job will be launched again *with the same parameters*:
+
+image::cloud/images/master/ReplayAJobInstance.gif[]
+
+// [ReplayAJobInstance](images/ReplayAJobInstance.gif)

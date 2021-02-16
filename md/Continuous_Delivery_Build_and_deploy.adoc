@@ -1,0 +1,56 @@
+= Build and deploy a living application to Bonita Cloud Non Production Runtimes
+
+== Build and deploy Job
+
+This job combines the build and deploy jobs to streamline your build and deploy process with the development or production polices:
+
+image::cloud/images/master/BuildDeployJob.png[]
+
+== Launching a deployment
+
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Build and Deploy a LivingApp to a runtime" job.
+. Your default build and deploy configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
+. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Building_a_Living_Application_Prod.adoc[here])
+. You can also select the deployment policies to apply.
+
+::: info
+
+|===
+| Artifact | Development Policy(default) | Production Polict(checkbox ticked)
+
+| Applications
+| `REPLACE_DUPLICATES`
+| `REPLACE_DUPLICATES`
+
+| Organization
+| `MERGE_DUPLICATES`
+| `IGNORE_DUPLICATES`
+
+| Processes
+| `REPLACE_DUPLICATES`
+| `IGNORE_DUPLICATES`
+
+| Profiles
+| `REPLACE_DUPLICATES`
+| `IGNORE_IF_ANY_EXISTS`
+|===
+
+:::
+
+. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
+. Click on the build button (lower left).
+. You should see the job progress and steps.
+
+== Result of a deployment
+
+=== Successful deployment
+
+If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in the job history:
+
+image::cloud/images/master/LinkToPortal.png[,100%]
+
+// [LinktoPortal](images/LinkToPortal.png)
+
+=== Failed deployment
+
+If the job fails, then you need to open its logs to understand the issues.

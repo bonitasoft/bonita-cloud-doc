@@ -1,0 +1,5 @@
+= Bonita Cloud Continuous Delivery - Generic actions
+
+* xref:Continuous_Delivery_Generic_Actions_Monitoring.adoc[Monitoring a job]
+* xref:Continuous_Delivery_Generic_Actions_Parameters.adoc[Check the parameters of a job]
+* xref:Continuous_Delivery_Generic_Actions_Replay.adoc[Replay a job]

@@ -1,0 +1,44 @@
+= Monitoring a job
+
+== Last job result information
+
+The result of the last job is displayed next to the job:
+
+* image:images/JobStatusInProgress.png[Inprogress]: Job is in progress
+* image:images/JobStatusOK.png[JobOK]: Last job was successful
+* image:images/JobStatusFailed.png[JobKO]: Last job was unsuccessful
+
+[discrete]
+==== Example
+
+image::cloud/images/master/JobStatusLast.png[,100%]
+
+// [JobStatusLast](images/JobStatusLast.png)
+
+=== Console Output
+
+You can check the different actions and logs done in a job through the "console output". This output can be view during or after the job execution.
+
+. Open the corresponding job by clicking on its title:
+
+image::cloud/images/master/OpenAJob.gif[]
+
+// [OpenAJob](images/OpenAJob.gif)
+
+. Open the corresponding job instance by click on its ID in the main list or side list
+
+image::cloud/images/master/OpenJobInstance.png[]
+
+// [OpenJobInstance](images/OpenJobInstance.png)
+
+. On the side panel, click on the "Console Output" entry:
+
+image::cloud/images/master/ConsoleOutputAction.png[]
+
+// [ConsoleOutput](images/ConsoleOutputAction.png)
+
+. You will see all the different actions and logs done during the job:
+
+image::cloud/images/master/ConsoleOutputEx.gif[,100%]
+
+// [ConsoleOutputEx](images/ConsoleOutputEx.gif)

@@ -1,0 +1,24 @@
+= Getting started with Bonita Cloud
+
+With Bonita Cloud starting a new project has never been easier:
+
+. After receiving all the required technical credentials, https://documentation.bonitasoft.com/bonita/7.10/first-steps-after-setup[create a Bonita Portal administrator for your runtimes]
+. Download the Bonita Studio in your customer Portal (https://customer.bonitasoft.com/download/request[Request a download]).
+. Develop your application within the studio (https://documentation.bonitasoft.com/bonita/7.10/_getting-started-tutorial[Getting started]).
+
+::: info
+With Bonita Cloud no need to install any runtime, they're already available in our cloud.
+:::
+
+. Configure your xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc[Bonita Cloud Continuous Delivery platform].
+. Use Bonita Cloud Continuous Delivery platform to build and deploy your application to the Integration or Pre-production runtimes (xref:Continuous_Delivery_Build_and_deploy.adoc[Building and deploying to Bonita Cloud]).
++
+::: info
+We recommend to use the non-production runtime as follows:
+
+ ** Integration: for tests by the development team with test data
+ ** Pre-production: for tests by the final or test users with production-like data.
+:::
+
+. Validate the application.
+. Deploy to production with the Bonita Cloud Continuous Delivery platform.

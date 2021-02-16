@@ -1,0 +1,50 @@
+= Configuring your Continuous Delivery Platform
+
+== Location of the configuration
+
+All the jobs linked to the configuration are grouped in the "Configuration" tab:
+image:images/ConfigurationTab.png[CDConfigTab]
+
+== Repository Credentials
+
+This job allows you to configure your access to Github but also the https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted[BCD vault password].
+
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my credentials" job.
+. Enter the GitHub user that will have access to your repositories
+. Enter the corresponding password for that account.
+. If you are planning to use the BCD Vault, then you can enter the vault password. This field can be left empty.
+. Click on the "Build" button to save the configuration
+. Make sure the job was successful:
+image:images/CredentialsJobResult.png[JobResult]
++
+== Default Build configuration
++
+This job allows you to define the default build parameters i.e. the repository URL, the branch, and environment to build to avoid having to re-enter the same parameters in the build job.
+::: info
+Note: You can use the build job without configuring your default build configuration.
+:::
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my default build parameters - LivingApp" job.
+. Enter the URL to your Bonita living application repository (e.g. "https://github.com/acme/myGreatLivingApp.git").
+. Then enter the branch you will be building most of the time.
+. Finally input the environment (as defined in your project) you will be used when building.
+Your job should look like this:
+image:images/BuildDefaultParameters.png[BuildDefaultExample]
+. Click on the "Build" button to save the configuration
+. Make sure the job was successful:
+image:images/DefBuildJobResult.png[JobResult]
++
+== Default Deploy configuration
++
+This job allows you to define the default build parameters i.e. the BCD Configuration and the target runtime (production, preproduction or integration).
+::: info
+Note: You can use the deploy job without configuring your default deploy configuration.
+:::
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my default deploy parameters - LivingApp" job.
+. Enter the BCD configuration you wish to use to deploy your default living application
+. Select the runtime to deploy to.
+::: info
+Note: the Bonita version is displayed next to the runtime name.
+:::
+. Click on the "Build" button to save the configuration
+. Make sure the job was successful:
+image:images/DefDeployJobResult.png[JobResult]
