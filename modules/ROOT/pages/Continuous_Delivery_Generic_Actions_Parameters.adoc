@@ -1,28 +1,17 @@
 = Check the parameters of a previous job
 
 . Open the corresponding job by clicking on its title:
-
-image::cloud/images/master/OpenAJob.gif[]
-
-// [OpenAJob](images/OpenAJob.gif)
-
++
+image::images/OpenAJob.gif[]
++
 . Open the corresponding job instance by click on its ID in the main list or side list
-
-image::cloud/images/master/OpenJobInstance.png[]
-
-// [OpenJobInstance](images/OpenJobInstance.png)
-
++
+image::images/OpenJobInstance.png[]
++
 . On the side panel, click on the "Parameters" entry:
-
-image::cloud/images/master/AccessParameters.png[]
-
-// [AccessParameters](images/AccessParameters.png)
-
++
+image::images/AccessParameters.png[]
++
 . You can now view the parameters used in the job instance.
-
-[discrete]
-==== Example
-
-image::cloud/images/master/DisplayParametersExample.png[]
-
-// [DisplayParametersExample](images/DisplayParametersExample.png)
++
+image::images/DisplayParametersExample.png[]

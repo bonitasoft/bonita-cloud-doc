@@ -4,16 +4,12 @@ After subscribing to Bonita Cloud, you will be provided access to Bonita Cloud C
 
 Access the URL and use the given credential to connect:
 
-// [CDLoginPage](images/CD_LoginPage.png)
-
-image::cloud/images/master/CD_LoginPage.png[,70%]
+image::images/CD_LoginPage.png[,70%]
 
 [discrete]
 ===== Expected result
 
-// [CDHome](images/CD_LogHome.png)
-
-image::cloud/images/master/CD_LogHome.png[,70%]
+image::images/CD_LogHome.png[,70%]
 
 [discrete]
 ===== First Connection

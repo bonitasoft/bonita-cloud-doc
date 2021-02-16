@@ -23,11 +23,9 @@ Bonita Cloud initial offer includes:
 * Support: Gold elite or platinium
 * Unlimited processes, cases, tasks, forms and applications
 
-// [Overview](images/BCLDOverview.png)
-
 == High Level View
 
-image::cloud/images/master/BCLDOverview.png[,70%]
+image::images/BCLDOverview.png[,70%]
 
 == Service Regions
 

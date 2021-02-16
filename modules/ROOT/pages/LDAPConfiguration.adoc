@@ -6,7 +6,7 @@ To avoid managing users in both Bonita and your authentification system, you can
 
 The LDAP synchronization service keeps the Bonita BPM organization information synchronized with an external LDAP directory, by creating, updating, or removing users and groups in the organization to match as closely as possible the user list attributes defined in LDAP. It does not modify the LDAP directory.
 
-image::cloud/images/master/LDAPConfigDiagramRS.png[]
+image::images/LDAPConfigDiagramRS.png[]
 
 == Requesting a LDAP Synchronizer Integration
 

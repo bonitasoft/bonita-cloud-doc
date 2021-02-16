@@ -10,7 +10,7 @@ Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall av
 
 The overall service availability value is defined by the following:
 
-image::cloud/images/master/SLAFormula.png[]
+image::images/SLAFormula.png[]
 
 Where:
 

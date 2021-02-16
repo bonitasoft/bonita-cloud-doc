@@ -4,9 +4,9 @@
 
 The job "ACTION - Deploy a LivingApp to a production runtime" allows to you deploy your living applications to any of your *production* Bonita Cloud runtimes:
 
-image::cloud/images/master/DeployProdJob.png[]
+image::images/DeployProdJob.png[]
 
-image::cloud/images/master/ProdBuildForm.png[]
+image::images/ProdBuildForm.png[]
 
 == Launching a deployment
 
@@ -43,4 +43,4 @@ You have several possibilities:
 
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in the job history:
 
-image::cloud/images/master/LinkToPortal.png[,100%]
+image::images/LinkToPortal.png[]
