@@ -1,0 +1,5 @@
+name: cloud
+title: Bonita Cloud
+version: latest
+nav:
+  - modules/ROOT/taxonomy.adoc
