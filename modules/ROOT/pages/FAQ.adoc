@@ -1,5 +1,7 @@
 = Frequently Asked Questions
 
+Hello Kitty
+ 
 == Difference with the On-premise version
 
 Bonita Cloud *IS NOT* a downgraded On-premise version.
