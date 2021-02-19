@@ -1,6 +1,4 @@
 = Frequently Asked Questions
-
-Hello Kitty
  
 == Difference with the On-premise version
 
