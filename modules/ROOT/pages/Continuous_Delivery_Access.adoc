@@ -20,5 +20,5 @@ image::images/CD_LogHome.png[,70%]
 
 Please start by configuring your xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc[Continuous Delivery Service]
 
-NOTE: We strongly recommend that you xref:Continuous_Delivery_Generic_Actions_ChangePWD.adoc[change your password].
+CAUTION: We strongly recommend that you xref:Continuous_Delivery_Generic_Actions_ChangePWD.adoc[change your password].
 
