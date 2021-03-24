@@ -13,8 +13,7 @@ Bonita Cloud initial offer includes:
  ** Access to Bonita Cloud self-serving which consist of:
   *** The Continuous delivery platform
    **** Build and deploy your living applications
-  *** The platform manager
-   **** Troubleshoot, monitor and manage your platform
+   **** Troubleshoot your platform
 * High Availability and High Performance
 * Up to 10 Studio licenses
 * Support: Gold elite or platinium
