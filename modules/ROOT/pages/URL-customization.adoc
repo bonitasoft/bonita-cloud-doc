@@ -52,7 +52,7 @@ NOTE: The same domain must be applied to all environments.
 
 Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain. 
 
-NOTE: To limit the time to take DNS changes into account, ensure to minimize the TTL (time to live) of NS entries (300 seconds for example) before delegating your domain to Bonita Name Servers.
+NOTE: To limit the time to take DNS changes into account, ensure to minimize the TTL (time to live) of NS entries (300 seconds for example) before delegating your domain to Bonita Name Servers. NS stands for 'name server', it's the type of the record that indicates which DNS servers are authoritative for that domain.
 
 === Step 4: Schedule the change
 
