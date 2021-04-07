@@ -56,7 +56,7 @@ NOTE: To limit the time to take DNS changes into account, ensure to minimize the
 
 === Step 4: Schedule the change
 
-Bonita will confirm with you a window maintenance to perform this customization. You will have to inform accordingly your end users about that change.
+Bonitasoft will confirm with you a window maintenance to perform this customization. You will have to inform accordingly your end users about that change.
 
 === Step 5: Change NS TTL back to a higher value
 
