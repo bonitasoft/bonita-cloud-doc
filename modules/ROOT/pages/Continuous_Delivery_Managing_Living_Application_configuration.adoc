@@ -1,0 +1,13 @@
+= Managing Living Application configuration
+
+The parameters will come from the LIVINGAPP_ENVIRONMENT_NAME you choose to perform your action. It's the name of the process configuration environment as defined in Bonita Studio (Integration, Qualification, Production...) 
+
+Then you may want to override some of them using a specific configuration.
+
+To do so your git repository should contains a directory called .bcd_configurations
+
+Into that directory you are able to store encrypted parameters files using this naming convention: parameters-<BCD_CONFIGURATION_NAME>.yml
+
+CAUTION: Ensure to encrypt your parameters file before pushing them on your repository. See the https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault documentation] to do so. We also recommend to use private repositories.
+
+A mandatory step to run your jobs is to configure your vault password as described into xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc#_repository_credentials[Repository Credentials]
