@@ -9,7 +9,7 @@ NOTE: You will need a SAML Identity Provider server up and running
 
 == Requesting Single-Sign-On authentication
 
-Create a new support case to request a SSO authentication to Bonita Cloud. Make sure to provide the following information in your case:
+To request SSO authentication to Bonita Cloud, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
 * The runtimes that will use the SSO
 * SAML metadata XML

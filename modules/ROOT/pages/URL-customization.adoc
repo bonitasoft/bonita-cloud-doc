@@ -15,9 +15,9 @@ You can request to customize your domain to have an URL that uses a domain diffe
 
 Contact your sales or customer success representative to subscribe to this option.
 
-=== Step 2: Open a support case
+=== Step 2: Open a case on the Customer Service Center
 
-Create a new support case to request a URL Customization of your Bonita Cloud environments. Make sure to provide the following information in your case:
+To request a URL Customization of your Bonita Cloud environments, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
 * The domain (example: **mydomain.com**) or subdomain (example: **subdomain.mydomain.com**) to delegate to Bonita.
 
