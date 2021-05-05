@@ -1,11 +1,11 @@
 = URL customization
 
-You can request to customize your domain to have an URL that uses a domain different from the default one (* bonitacloud.com).
+You can request to customize your domain to have an URL that uses a domain different from the default one (*.bonitacloud.com).
 
 [NOTE]
 ====
-* You will need to own the targeted domain or subdomain and delegate its management to Bonita.
-** Bonita manages the certificate lifecycle (request, validation, and renewal).
+* You must own the targeted domain or subdomain and delegate its management to Bonita.
+** Bonita manages the SSL certificate lifecycle (request, validation, and renewal).
 * This customization is a paid option.
 ====
 
@@ -17,40 +17,40 @@ Contact your sales or customer success representative to subscribe to this optio
 
 === Step 2: Open a support case
 
-Create a new support case to request a URL Customization of your Bonita Cloud. Make sure to provide the following information in your case:
+Create a new support case to request a URL Customization of your Bonita Cloud environments. Make sure to provide the following information in your case:
 
-* The domain or sub-domain to delegate to Bonita
+* The domain (example: **mydomain.com**) or subdomain (example: **subdomain.mydomain.com**) to delegate to Bonita.
 
-NOTE: The same domain must be applied to all environments.
+NOTE: This request requires you to delegate responsability of the **whole domain name (or subdomain)** to the Bonita Cloud DNS service. Besides, the same domain (or subdomain) will be applied to all environments.
 
-* The current and new environment **F**ully **Q**ualified **D**omain **N**ame:
+* The current and new environment Fully Qualified Domain Name (FQDN) as follows:
 |===
 | Environment | Current FQDN | New FQDN
 
 | Integration
 | _Example: customer-name-integration.bonitacloud.com_
-| _Example: integration.mydomain.com_
+| _Example: integration.mydomain.com OR integration.subdomain.mydomain.com_
 
 | Pre-production
 | _Example: customer-name-preproduction.bonitacloud.com_
-| _Example: preproduction.mydomain.com_
+| _Example: preproduction.mydomain.com OR preproduction.subdomain.mydomain.com_
 
 | Production
 | _Example: customer-name.bonitacloud.com_
-| _Example: projectname.mydomain.com_
+| _Example: projectname.mydomain.com OR projectname.subdomain.mydomain.com_
 
 | Continuous delivery
 | _Example: customer-name-cd.bonitacloud.com_
-| _Example: cd.mydomain.com_
+| _Example: cd.mydomain.com OR cd.subdomain.mydomain.com_
 
 | ...
 |
 |
 |===
 
-=== Step 3: Perform the delegation with low TTL 
+=== Step 3: Perform the delegation with low TTL
 
-Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain. 
+Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain.
 
 NOTE: To limit the time to take DNS changes into account, ensure to minimize the TTL (time to live) of NS entries (300 seconds for example) before delegating your domain to Bonita Name Servers. NS stands for 'name server', it's the type of the record that indicates which DNS servers are authoritative for that domain.
 
