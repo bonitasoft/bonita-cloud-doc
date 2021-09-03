@@ -77,7 +77,7 @@ Yes. Thanks to our https://documentation.bonitasoft.com/bcd/latest/[Bonita Cloud
 
 == Infrastructure access
 
-Bonita Cloud infrastructure follow the security standard to guarantee data confidentiality and reliability. 
+Bonita Cloud infrastructure follows the security standard to guarantee data confidentiality and reliability. 
 The Bonitasoft cloud infrastructure team garantees the best level of service on the infrastructure by ensuring strict security processes compliance. 
 
 In consequence, Bonitasoft doesn't give direct access to infrastrucure components used by the Bonita Cloud services (i.e. machine, database, file system, ...). 
@@ -89,7 +89,7 @@ Nevertheless, there are multiple options to retreive and integrate Bonita data t
 - Implement a connector 
 - Or ask our Professional Services team to implement an Event Handler. 
 
-Just contact your Bonita Cloud represnetative for more information. 
+Just contact your Bonita Cloud representative for more information. 
 
 //== Monitoring
 //
