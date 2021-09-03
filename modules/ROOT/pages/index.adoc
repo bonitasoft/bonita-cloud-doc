@@ -1,17 +1,9 @@
-= Bonita Cloud
-
-NOTE: Welcome to *Bonita Cloud* documentation website!
-
+= Welcome to Bonita Cloud documentation website!
 
 Bonita Cloud offers all the values of the Bonita Enterprise platform and its BCD add-on without the hassle of managing the platform operations (upgrades, infrastructure management...).
 
 [.card-section]
-== Content
-
-[.card.card-index]
---
-image:images/bonita_cloud_200.png[bonita_cloud_200]
---
+== image:images/bonita_cloud_200.svg[Bonita cloud,60]   Content
 
 [.card.card-index]
 --
