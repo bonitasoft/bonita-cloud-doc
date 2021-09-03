@@ -24,7 +24,7 @@ Bonitasoft will guarantee the availability of the VPN gateway on the Bonita Clou
 
 == Requesting a VPN Integration
 
-Create a new support case to request a VPN connection with Bonita Cloud. Make sure to provide the following information in your case:
+To request a VPN connection with Bonita Cloud, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
 * VPN gateway type
 * Gateway public IP address

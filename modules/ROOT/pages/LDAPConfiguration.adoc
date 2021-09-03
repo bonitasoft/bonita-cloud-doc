@@ -10,7 +10,7 @@ image::images/LDAPConfigDiagramRS.png[]
 
 == Requesting a LDAP Synchronizer Integration
 
-Create a new support case to request a LDAP Synchronization with Bonita Cloud. Make sure to provide the following information in your case:
+To request LDAP Synchronization with Bonita Cloud, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
 * Your LDAP server URL
 * The Runtime to synchronize
