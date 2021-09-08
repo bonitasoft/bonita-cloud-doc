@@ -75,6 +75,22 @@ Bonita Cloud runtimes use PostgreSQL.
 Yes. Thanks to our https://documentation.bonitasoft.com/bcd/latest/[Bonita Cloud Continuous Delivery add-on] you can use your pre-existing tools to manage your applications deployment on Bonita Cloud.
 
 
+== Infrastructure access
+
+Bonita Cloud infrastructure follows the security standard to guarantee data confidentiality and reliability. 
+The Bonitasoft cloud infrastructure team garantees the best level of service on the infrastructure by ensuring strict security processes compliance. 
+
+In consequence, Bonitasoft doesn't give direct access to infrastrucure components used by the Bonita Cloud services (i.e. machine, database, file system, ...). 
+Moreover, this protection ensures any mis-usage or bad manipulation by the users that would put at risk the Bonita Cloud SLA. 
+
+Nevertheless, there are multiple options to retreive and integrate Bonita data to an external system, for instance:
+
+- Using Bonita API to access data 
+- Implement a connector 
+- Or ask our Professional Services team to implement an Event Handler. 
+
+Just contact your Bonita Cloud representative for more information. 
+
 //== Monitoring
 //
 //=== Who is monitoring Bonita Cloud ?
