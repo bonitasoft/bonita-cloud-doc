@@ -1,6 +1,7 @@
 name: cloud
 title: Bonita Cloud
 version: latest
+start_page: ROOT:index.adoc
 asciidoc:
   attributes:
     page-editable: true
