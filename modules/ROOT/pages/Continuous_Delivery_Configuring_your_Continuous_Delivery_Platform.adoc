@@ -31,7 +31,7 @@ This job allows you to configure your access to a private Maven repository.
 . Make sure the job was successful:
 image:images/ConfigureMavenJobResult.png[JobResult]
 
-NOTE: The job only allows setting up a single private Maven repository, to set up multiple repos please create a new case on the Customer Service Center.
+NOTE: The job only allows setting up a single private Maven repository, to set up multiple repositories please create a new case on the Customer Service Center.
 
 == Default Build configuration
 
