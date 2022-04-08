@@ -23,10 +23,9 @@ CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 20
 
 This job allows you to configure your access to a private Maven repository.
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my maven private repository" job.
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my private Maven repository" job.
 . Enter the url used to access your private Maven repository
-. Enter the username used to retrieve your private Maven artifacts
-. Enter the password used to retrieve your private Maven artifacts
+. If your private maven repository require authentication, please enter the username and password used to retrieve your private Maven artifacts, otherwise leave these fields blank
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
 image:images/ConfigureMavenJobResult.png[JobResult]
