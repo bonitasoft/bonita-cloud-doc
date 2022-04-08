@@ -21,7 +21,7 @@ CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 20
 
 == Maven repository credentials
 
-This job allows you to configure you access to a private Maven repository.
+This job allows you to configure your access to a private Maven repository.
 
 . Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my maven private repo" job.
 . Enter the url used to access your private Maven repository
@@ -30,6 +30,8 @@ This job allows you to configure you access to a private Maven repository.
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
 image:images/ConfigureMavenJobResult.png[JobResult]
+
+NOTE: The job only allows setting up a single private Maven repository, to set up multiple repos please create a new case on the Customer Service Center.
 
 == Default Build configuration
 
