@@ -5,7 +5,7 @@
 All the jobs linked to the configuration are grouped in the "Configuration" tab:
 image:images/ConfigurationTab.png[CDConfigTab]
 
-== Repository Credentials
+== Git repository credentials
 
 This job allows you to configure your access to Git but also the https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted[BCD vault password].
 
@@ -19,6 +19,18 @@ image:images/CredentialsJobResult.png[JobResult]
 
 CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 2021 password-based authentication will no longer be accepted. Instead, token-based authentication will be required using a https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token[personal access token]. Therefore you will have to enter your GitHub username in the **bonitaGitUsername** field and your authentication token in the **bonitaGitPassword** field of the "Configure my credentials" job.
 
+== Maven repository credentials
+
+This job allows you to configure your access to a private Maven repository.
+
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my private Maven repository" job.
+. Enter the url used to access your private Maven repository
+. If your private Maven repository require authentication, please enter the username and password used to retrieve your private Maven artifacts, otherwise leave these fields blank
+. Click on the "Build" button to save the configuration
+. Make sure the job was successful:
+image:images/ConfigureMavenJobResult.png[JobResult]
+
+NOTE: The job only allows setting up a single private Maven repository, to set up multiple repositories please create a new case on the Customer Service Center.
 
 == Default Build configuration
 
@@ -51,3 +63,5 @@ NOTE: the Bonita version is displayed next to the runtime name.
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
 image:images/DefDeployJobResult.png[JobResult]
+
+
