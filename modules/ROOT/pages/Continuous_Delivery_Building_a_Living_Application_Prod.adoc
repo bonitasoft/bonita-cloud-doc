@@ -54,6 +54,13 @@ The production deployment will be used
 
 ====
 
+=== (optional) Load a custom Deployment Descriptor file
+
+The BCD deploy command allows to add and extra parameter named `deploy.json` to deploy only selected items from the build step, see https://documentation.bonitasoft.com/bcd/3.4/livingapp_deploy#_deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
+
+To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field
+
+image::images/ProdBuildFormDeployDescriptor.png[]
 
 == Result of a deployment
 
