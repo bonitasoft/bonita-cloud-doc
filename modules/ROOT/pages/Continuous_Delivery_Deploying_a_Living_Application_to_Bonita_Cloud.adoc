@@ -23,7 +23,7 @@ You have several possibilities:
  ** Last completed build
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
-. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Building_a_Living_Application_Prod.adoc[here])
+. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
 . You can also select the deployment policies to apply.
 
 [NOTE]
