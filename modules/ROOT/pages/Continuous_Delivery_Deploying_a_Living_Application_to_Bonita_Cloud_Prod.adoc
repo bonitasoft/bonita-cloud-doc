@@ -14,7 +14,7 @@ image::images/ProdBuildForm.png[]
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
 You have several possibilities:
- ** Last successul build
+ ** Last successful build
  ** Specific build
  ** Last Saved build
  ** Upstream that triggered this job
@@ -38,9 +38,6 @@ The production deployment will be used
 |Applications
 |`REPLACE_DUPLICATES`
 
-|Applications
-|`REPLACE_DUPLICATES`
-
 |Organization
 |`IGNORE_DUPLICATES`
 
@@ -51,14 +48,16 @@ The production deployment will be used
 |`IGNORE_IF_ANY_EXISTS`
 
 |===
-
 ====
 
 === (optional) Load a custom Deployment Descriptor file
 
-The BCD deploy command allows to add and extra parameter named `deploy.json` to deploy only selected items from the build step, see https://documentation.bonitasoft.com/bcd/3.4/livingapp_deploy#_deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
+The BCD deploy command allows to add and extra parameter named `deploy.json` to specify which resources have to be deployed, and with which policy.
+See xref:bcd:ROOT:livingapp_deploy#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
 
-To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field
+When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the Production Policies.
+
+To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field.
 
 image::images/ProdBuildFormDeployDescriptor.png[]
 
