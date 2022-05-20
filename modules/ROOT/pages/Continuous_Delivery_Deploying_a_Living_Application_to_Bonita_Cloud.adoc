@@ -2,7 +2,7 @@
 
 == Deploy Job
 
-The job "ACTION - Deploy a LivingApp to a runtime" allows you to deploy your living applications to any of your Bonita Cloud runtimes with the development or production polices:
+The job "ACTION - Deploy a LivingApp to a non-production runtime" allows you to deploy your living applications to any of your Bonita Cloud runtimes with the development or production policies:
 
 image::images/DeployJob.png[]
 
@@ -10,7 +10,7 @@ image::images/NonProdBuildForm.png[]
 
 == Launching a deployment
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a runtime" job.
+. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a non-production runtime" job.
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
 You have several possibilities:
@@ -24,7 +24,10 @@ You have several possibilities:
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
 . Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
-. You can also select the deployment policies to apply.
+. You can also select xref:bcd:ROOT:livingapp_deploy#preconfigured_deployment_policies[the deployment policies] to apply.
+. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
+. Click on the build button (lower left).
+. You should see the job progress and steps.
 
 [NOTE]
 ====
@@ -49,16 +52,14 @@ You have several possibilities:
 |===
 ====
 
-
-. For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
-. Click on the build button (lower left).
-. You should see the job progress and steps.
-
 === (optional) Load a custom Deployment Descriptor file
 
-The BCD deploy command allows to add and extra parameter named `deploy.json` to deploy only selected items from the build step, see https://documentation.bonitasoft.com/bcd/3.4/livingapp_deploy#_deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
+The BCD deploy command allows to add and extra parameter named `deploy.json` to specify which resources have to be deployed, and with which policy.
+See xref:bcd:ROOT:livingapp_deploy#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
 
-To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field
+When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the other Development or Production Policies.
+
+To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field.
 
 image::images/NonProdBuildFormDeployDescriptor.png[]
 
