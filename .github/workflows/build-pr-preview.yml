@@ -16,6 +16,9 @@ jobs:
       # Except if you want to test in progress work that your content depends on, keep it set to master
       DOC_SITE_BRANCH: master
       PR_NUMBER: ${{ github.event.pull_request.number }}
+      BCD_BRANCH: '3.6'
+      BONITA_BRANCH: '2022.1'
+      TOOLKIT_BRANCH: '1.0'
     steps:
       - name: Get documentation site source code
         if: github.event.action != 'closed'
@@ -37,6 +40,8 @@ jobs:
           dist: build/site
           failOnError: true
           teardown: 'true'
-          build: |
-            ./build-preview.bash --branch "${{ env.BRANCH_NAME }}" --component "${{ env.COMPONENT_NAME }}" --pr "${{ env.PR_NUMBER }}" --site-url "${{ env.PREVIEW_URL }}"
+          build: |            
+            ./build-preview.bash --use-multi-repositories --component-with-branches "${{ env.COMPONENT_NAME }}":"${{ env.BRANCH_NAME }}" --component-with-branches bcd:"${{ env.BCD_BRANCH }}" --component-with-branches test-toolkit:"${{ env.TOOLKIT_BRANCH }}" --component-with-branches bonita:"${{ env.BONITA_BRANCH }}" --pr "${{ env.PR_NUMBER }}" --site-url "${{ env.PREVIEW_URL }}"
             ls -lh build/site
+            
+            
