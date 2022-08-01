@@ -6,7 +6,6 @@ You can request to customize your domain to have an URL that uses a domain diffe
 ====
 * You must own the targeted domain or subdomain and delegate its management to Bonitasoft.
 ** Bonitasoft manages the SSL certificate lifecycle (request, validation, and renewal).
-* This customization is already included in the Bonita Cloud offer.
 ====
 
 == Requesting an URL customization
