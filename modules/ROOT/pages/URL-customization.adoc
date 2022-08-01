@@ -4,22 +4,17 @@ You can request to customize your domain to have an URL that uses a domain diffe
 
 [NOTE]
 ====
-* You must own the targeted domain or subdomain and delegate its management to Bonita.
-** Bonita manages the SSL certificate lifecycle (request, validation, and renewal).
-* This customization is a paid option.
+* You must own the targeted domain or subdomain and delegate its management to Bonitasoft.
+** Bonitasoft manages the SSL certificate lifecycle (request, validation, and renewal).
 ====
 
 == Requesting an URL customization
 
-=== Step 1: Subscribe to the option
-
-Contact your sales or customer success representative to subscribe to this option.
-
-=== Step 2: Open a case on the Customer Service Center
+=== Step 1: Open a case on the Customer Service Center
 
 To request a URL Customization of your Bonita Cloud environments, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
-* The domain (example: **mydomain.com**) or subdomain (example: **subdomain.mydomain.com**) to delegate to Bonita.
+* The domain (example: **mydomain.com**) or subdomain (example: **subdomain.mydomain.com**) to delegate to Bonitasoft.
 
 NOTE: This request requires you to delegate responsability of the **whole domain name (or subdomain)** to the Bonita Cloud DNS service. Besides, the same domain (or subdomain) will be applied to all environments.
 
@@ -48,16 +43,16 @@ NOTE: This request requires you to delegate responsability of the **whole domain
 |
 |===
 
-=== Step 3: Perform the delegation with low TTL
+=== Step 2: Perform the delegation with low TTL
 
-Bonita will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain.
+Bonitasoft will provide the corresponding DNS configuration (Name Servers) to delegate your domain or subdomain.
 
-NOTE: To limit the time to take DNS changes into account, ensure to minimize the TTL (time to live) of NS entries (300 seconds for example) before delegating your domain to Bonita Name Servers. NS stands for 'name server', it's the type of the record that indicates which DNS servers are authoritative for that domain.
+NOTE: To limit the time to take DNS changes into account, ensure to minimize the TTL (time to live) of NS entries (300 seconds for example) before delegating your domain to Bonitasoft Name Servers. NS stands for 'name server', it's the type of the record that indicates which DNS servers are authoritative for that domain.
 
-=== Step 4: Schedule the change
+=== Step 3: Schedule the change
 
 Bonitasoft will confirm with you a window maintenance to perform this customization. You will have to inform accordingly your end users about that change.
 
-=== Step 5: Change NS TTL back to a higher value
+=== Step 4: Change NS TTL back to a higher value
 
 Once the new URLs are in place, you will be able to change the TTL for the NS record back to a higher value, for example, 172800 seconds (two days). This will improves latency for your users.
