@@ -1,0 +1,16 @@
+= Test a living application on Non Production Runtimes
+
+[NOTE]
+====
+This functionality is compatible with Bonita Cloud runtimes >= 2022.1 / 7.14.
+
+It only targets non-production runtimes.
+====
+
+In order to write and execute integration tests for your Bonita processes the Bonita Cloud Continuous Delivery platform integrates the xref:test-toolkit:ROOT:process-testing-overview.adoc[Bonita Test Toolkit].
+
+It requires to include a subfolder in your Bonita project within the same git repository.
+
+Then create your integration tests following the xref:test-toolkit:ROOT:quick-start#quick-start-test[Test Toolkit documentation].
+
+You will be able to launch your integrations tests by specifying into xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc[deploy] or xref:Continuous_Delivery_Build_and_deploy.adoc[build and deploy] jobs the folder where you have stored your tests through the INTEGRATION_TESTS_DIR parameter.

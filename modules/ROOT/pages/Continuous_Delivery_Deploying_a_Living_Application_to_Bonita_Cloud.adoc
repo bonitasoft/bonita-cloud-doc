@@ -24,6 +24,7 @@ You have several possibilities:
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
 . Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
+. You can specify the directory that contains the xref:Continuous_Delivery_Test_a_Living_Application.adoc[integration tests] with the INTEGRATION_TESTS_DIR optional field.
 . You can also select xref:bcd:ROOT:livingapp_deploy#preconfigured_deployment_policies[the deployment policies] to apply.
 +
 [NOTE]
