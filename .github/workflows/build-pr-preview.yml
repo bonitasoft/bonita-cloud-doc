@@ -1,5 +1,7 @@
 name: Build PR preview
 
+# TODO remove: artificial change to trigger the workflow
+
 on:
   pull_request:
     # To manage 'surge-preview' action teardown, add default event types + closed event type
