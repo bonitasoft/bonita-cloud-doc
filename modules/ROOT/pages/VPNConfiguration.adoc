@@ -2,7 +2,7 @@
 
 To connect Bonita Cloud to your private network, you can request for a site-to-site VPN connection.
 
-It will allow Bonita to interact with your other systems not exposed on internet (xref:LDAPConfiguration.adoc[LDAP] server...).
+It will allow Bonita environments to interact with your internal information systems not exposed on the Internet (xref:LDAPConfiguration.adoc[LDAP] server...).
 
 image::images/DiagVPN.png[]
 
@@ -14,7 +14,7 @@ Two tunnels between VPN gateways can be configured to guarantee the secure conne
 
 == Incoming Traffic
 
-Bonita Cloud will still allow connections from the public internet.
+To ensure a versatile connectivity from anywhere, Bonita Cloud will continue to allow connection from public internet. This is done through a strong secured http link (supporting TLS 1.3).
 
 == Outgoing Traffic
 
