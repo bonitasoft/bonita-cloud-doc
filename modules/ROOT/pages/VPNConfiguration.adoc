@@ -1,8 +1,8 @@
 = Connecting Bonita Cloud to your VPN
 
-To connect your private network to Bonita Cloud, you can request for a site-to-site VPN connection.
+To connect Bonita Cloud to your private network, you can request for a site-to-site VPN connection.
 
-It will secure the access to your applications in Bonita Cloud (only the users connected to VPN will be able to access them) and it will also allow Bonita to interact with your other systems.
+It will allow Bonita to interact with your other systems not exposed on internet (xref:LDAPConfiguration.adoc[LDAP] server...).
 
 image::images/DiagVPN.png[]
 
@@ -14,9 +14,13 @@ Two tunnels between VPN gateways can be configured to guarantee the secure conne
 
 == Incoming Traffic
 
-By default, Bonita Cloud will allow connections from the public internet and the VPN.
+Bonita Cloud will still allow connections from the public internet.
 
-If needed, only the traffic coming from the VPN can be allowed. In this case, only the users connected to the VPN will be able to access your applications
+== Outgoing Traffic
+
+Bonita Cloud will still allow connections towards the public internet but will also be capable to route securely connection towards your private network.
+
+NOTE: This private communication is still subject to the firewall rules you have in place.
 
 == Impacts on the availability
 
