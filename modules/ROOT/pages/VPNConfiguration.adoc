@@ -12,13 +12,14 @@ Bonita Cloud supports Internet Protocol security (IPsec) VPN connections.
 
 Two tunnels between VPN gateways can be configured to guarantee the secure connection between your network and Bonita Cloud.
 
-== Incoming Traffic
+== Incoming Traffic (from Bonita Cloud POV)
 
-To ensure a versatile connectivity from anywhere, Bonita Cloud will continue to allow connection from public internet. This is done through a strong secured http link (supporting TLS 1.3).
+To ensure a versatile connectivity from anywhere, Bonita Cloud will continue to allow connections from public internet. This is done through a secured HTTPS link (supporting TLS 1.3).
 
-== Outgoing Traffic
+== Outgoing Traffic (from Bonita Cloud POV)
 
-Bonita Cloud will still allow connections towards the public internet but will also be capable to route securely connection towards your private network.
+Bonita Cloud will be able to securely connect to your internal resources which are not exposed on the Internet.
+Bonita Cloud VPN is designed a way that only process connectors can reach your private resources. This means that Bonita Cloud users' trafic will not be embeded inside VPN connection.
 
 NOTE: This private communication is still subject to the firewall rules you have in place.
 
