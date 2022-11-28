@@ -25,7 +25,7 @@ You have several possibilities:
  ** Copy from WORKSPACE of the latest completed build
 . Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
 . You can specify the directory that contains the xref:Continuous_Delivery_Test_a_Living_Application.adoc[integration tests] with the INTEGRATION_TESTS_DIR optional field.
-. You can also select xref:bcd:ROOT:livingapp_deploy#preconfigured_deployment_policies[the deployment policies] to apply.
+. You can also select xref:bcd:ROOT:livingapp_deploy.adoc#preconfigured_deployment_policies[the deployment policies] to apply.
 +
 [NOTE]
 ====
@@ -57,7 +57,7 @@ You have several possibilities:
 === (optional) Load a custom Deployment Descriptor file
 
 The BCD deploy command allows to add and extra parameter named `deploy.json` to specify which resources have to be deployed, and with which policy.
-See xref:bcd:ROOT:livingapp_deploy#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
+See xref:bcd:ROOT:livingapp_deploy.adoc#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
 
 When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the other Development or Production Policies.
 
