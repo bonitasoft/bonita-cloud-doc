@@ -53,7 +53,7 @@ The production deployment will be used
 === (optional) Load a custom Deployment Descriptor file
 
 The BCD deploy command allows to add and extra parameter named `deploy.json` to specify which resources have to be deployed, and with which policy.
-See xref:bcd:ROOT:livingapp_deploy#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
+See xref:bcd:ROOT:livingapp_deploy.adoc#deployment_descriptor_file[Deploy Living App artifacts | Deployment Descriptor file] for more info.
 
 When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the Production Policies.
 
