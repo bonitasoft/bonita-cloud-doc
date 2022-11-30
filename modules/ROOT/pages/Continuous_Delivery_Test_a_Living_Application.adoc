@@ -11,6 +11,6 @@ In order to write and execute integration tests for your Bonita processes the Bo
 
 It requires to include a subfolder in your Bonita project within the same git repository.
 
-Then create your integration tests following the xref:test-toolkit:ROOT:quick-start#quick-start-test[Test Toolkit documentation].
+Then create your integration tests following the xref:test-toolkit:ROOT:quick-start.adoc#quick-start-test[Test Toolkit documentation].
 
 You will be able to launch your integrations tests by specifying into xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc[deploy] or xref:Continuous_Delivery_Build_and_deploy.adoc[build and deploy] jobs the folder where you have stored your tests through the INTEGRATION_TESTS_DIR parameter.
