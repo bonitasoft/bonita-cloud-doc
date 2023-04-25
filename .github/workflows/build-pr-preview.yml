@@ -17,7 +17,7 @@ jobs:
       BONITA_BRANCH: '2023.1'
       TOOLKIT_BRANCH: '1.0'
       BONITA_BRANCH_2021_1: '2021.1'
-      BONITA_BRANCH_FOR_TOOLKIT: '2023.1'
+      BONITA_BRANCH_FOR_TOOLKIT: '2022.2'
     steps:
       - name: Build preview
         uses: bonitasoft/bonita-documentation-site/.github/actions/build-pr-site/@master
@@ -28,6 +28,6 @@ jobs:
             ./build-preview.bash --use-multi-repositories
             --start-page "${{ env.COMPONENT_NAME }}"::index.adoc
             --component-with-branches "${{ env.COMPONENT_NAME }}":"${{ env.COMPONENT_BRANCH_NAME }}"
-            --component-with-branches bcd:"${{ env.BCD_BRANCH }}" 
+            --component-with-branches bcd:"${{ env.BCD_BRANCH }},3.6" 
             --component-with-branches bonita:"${{ env.BONITA_BRANCH }},${{ env.BONITA_BRANCH_2021_1 }},${{ env.BONITA_BRANCH_FOR_TOOLKIT }}"
             --component-with-branches test-toolkit:"${{ env.TOOLKIT_BRANCH }}" 
