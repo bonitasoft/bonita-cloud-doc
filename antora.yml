@@ -3,6 +3,7 @@ title: Cloud
 version: latest
 asciidoc:
   attributes:
+    bcdVersion: '4.0' # latest available maintenance version
     page-editable: true
 nav:
   - modules/ROOT/taxonomy.adoc

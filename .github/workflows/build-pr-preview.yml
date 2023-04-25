@@ -13,11 +13,11 @@ jobs:
       COMPONENT_NAME: cloud
       COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
       # Required to pass xref validation
-      BCD_BRANCH: '3.6'
-      BONITA_BRANCH: '2022.1'
+      BCD_BRANCH: '4.0'
+      BONITA_BRANCH: '2023.1'
       TOOLKIT_BRANCH: '1.0'
       BONITA_BRANCH_2021_1: '2021.1'
-      BONITA_BRANCH_FOR_TOOLKIT: '2022.2'
+      BONITA_BRANCH_FOR_TOOLKIT: '2023.1'
     steps:
       - name: Build preview
         uses: bonitasoft/bonita-documentation-site/.github/actions/build-pr-site/@master
