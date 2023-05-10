@@ -20,7 +20,7 @@ For SAML
 
 For OIDC
 
-* The following bonita configuration files (see xref:bonita:ROOT:single-sign-on-with-oidc.adoc[OpenID Connect SSO configuration] documentation):
+* The following bonita configuration files (see xref:{bonitaDocVersion}@bonita:ROOT:single-sign-on-with-oidc.adoc[OpenID Connect SSO configuration] documentation):
 ** authenticationManager-config.properties
 ** bonita-tenant-sp-custom.properties
 ** keycloak-oidc.json
