@@ -22,3 +22,4 @@ jobs:
             ./build-preview.bash
             --component "${{ env.COMPONENT_NAME }}"
             --branch "${{ env.COMPONENT_BRANCH_NAME }}"
+          fail-on-warning: true
