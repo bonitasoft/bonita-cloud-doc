@@ -9,15 +9,15 @@ ____
 Bonita Cloud initial offer includes:
 
 * In our cloud:
- ** 3 runtimes: One production and Two non-productions
- ** Access to Bonita Cloud self-serving which consist of:
-  *** The Continuous delivery platform
-   **** Build and deploy your living applications
-   **** Troubleshoot your platform
-* High Availability and High Performance
-* Up to 10 Studio licenses
-* Support: Gold elite or platinium
-* Unlimited processes, cases, tasks, forms and applications
+ ** You choose your own hosting package (Small, Medium & Large)
+ ** You choose which environement you want to deploy (Production or Non production)
+ ** Each subscription comes with 3 Cloud components
+ *** Bonita Central to Troubleshoot your platform
+  *** Bonita Conitnuous Integration to Build, Test & Deploy your living applications
+  *** Bonita Registry to store your living applications built by Bonita CI
+* SLA: Initial & High Availability
+* Support: Gold elite, Gold elite plus or platinium
+* Limited cases depending on the package subscribed
 
 == High Level View
 
@@ -30,17 +30,9 @@ Bonita Cloud is currently available in Europe and North America:
 |===
 | North America | Europe
 
-| Canada
-| Ireland
+|  United States| Ireland
+|               | France
 
-| United States
-| United Kingdom
-
-|
-| France
-
-|
-| Germany
 |===
 
 NOTE: The infrastructure country does not imply that Bonitasoft technical support will be located in the same country.

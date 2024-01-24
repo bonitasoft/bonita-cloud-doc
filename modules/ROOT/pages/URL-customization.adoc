@@ -22,11 +22,11 @@ NOTE: This request requires you to delegate responsability of the **whole domain
 |===
 | Environment | Current FQDN | New FQDN
 
-| Integration
+| Non-Production (Integration)
 | _Example: customer-name-integration.bonitacloud.com_
 | _Example: integration.mydomain.com OR integration.subdomain.mydomain.com_
 
-| Pre-production
+| Non-Production (Pre-production)
 | _Example: customer-name-preproduction.bonitacloud.com_
 | _Example: preproduction.mydomain.com OR preproduction.subdomain.mydomain.com_
 

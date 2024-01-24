@@ -3,8 +3,8 @@ title: Cloud
 version: latest
 asciidoc:
   attributes:
-    bcdVersion: '4.0' # latest available maintenance version
-    bonitaDocVersion: '2023.1'
+    bcdVersion: '9.0' # latest available maintenance version
+    bonitaDocVersion: '2023.2'
     # General site configuration
     page-editable: true
 nav:

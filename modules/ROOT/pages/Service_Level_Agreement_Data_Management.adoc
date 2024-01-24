@@ -4,11 +4,11 @@ Your data is critical. Bonitasoft will provide all the tools and policies to mak
 
 == Backups
 
-Data of every runtime backed up every night. Additional backups are possible upon customer request.
+Data of every AppRuntime backed up every night. Additional backups are possible upon customer request.
 
 == Backups retention
 
-Bonitasoft will store 15 days of back up for the production runtimes. This retention period can be increased upon customer request.
+Bonitasoft will store 15 days of back up for the production AppRuntimes. This retention period can be increased upon customer request.
 
 == Restoration
 
