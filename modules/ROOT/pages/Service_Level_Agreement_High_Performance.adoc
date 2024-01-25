@@ -2,20 +2,20 @@
 
 With Bonita Cloud, we want you to focus on your business. Our offer includes a worry free infrastructure that will scale with your needs.
 
-Regardless of the number of users, the complexity of the cases, the number of cases, the number of processes or living application;
+Regardless of the number of users, the complexity of the cases, the number of processes or living application;
 
 //[TIP]
 //--
-//=> Bonitasoft will guarantee the responsiveness of your production runtimes
+//=> Bonitasoft will guarantee the responsiveness of your production AppRuntimes
 //--
 //
 [example]
 --
-=> Bonitasoft will guarantee the responsiveness of your production runtimes
+=> Bonitasoft will guarantee the responsiveness of your production AppRuntimes
 --
 //
 //****
-//=> Bonitasoft will guarantee the responsiveness of your production runtimes
+//=> Bonitasoft will guarantee the responsiveness of your production AppRuntimes
 //****
 
 

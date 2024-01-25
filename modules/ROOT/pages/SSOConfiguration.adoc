@@ -11,7 +11,7 @@ NOTE: You will need a SAML or OIDC Identity Provider server up and running
 
 To request SSO authentication to Bonita Cloud, create a new case on the Customer Service Center. Select _Professional Services_ as the type of request and make sure to provide the following information in your case:
 
-* The runtimes that will use the SSO
+* The AppRuntimes that will use the SSO
 
 For SAML
 
