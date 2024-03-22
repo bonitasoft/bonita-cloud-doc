@@ -46,6 +46,12 @@ Bonita licenses on Bonita Cloud runtimes are automatically renewed 10 days befor
 
 NOTE: Licenses generated for Bonita Cloud runtimes are valid for 40 days. Therefore you might be surprised to see in the Portal that your license will expire soon. As described above, a new 40-day license will be automatically installed.
 
+=== How is Bonita Cloud operated?
+
+Our architectures is based on Docker containers and Kubernetes as an orchestrator.
+
+The primary objective is to be able to ensure an optimal quality of service: uptime guarantee, performance guarantee, cost optimization 
+
 
 === Service region
 
