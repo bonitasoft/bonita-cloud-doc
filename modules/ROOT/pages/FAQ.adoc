@@ -50,7 +50,7 @@ NOTE: Licenses generated for Bonita Cloud runtimes are valid for 40 days. Theref
 
 Our architectures is based on Docker containers and Kubernetes as an orchestrator.
 
-The primary objective is to be able to ensure an optimal quality of service: uptime guarantee, performance guarantee, cost optimization 
+The primary objective is to be able to ensure an optimal quality of service: uptime guarantee, performance guarantee, cost optimization.
 
 
 === Service region
