@@ -80,7 +80,7 @@ Bonita Cloud runtimes use PostgreSQL.
 
 === I already have a continuous delivery platform. Can I use it with Bonita Cloud?
 
-Yes. Thanks to our https://documentation.bonitasoft.com/bcd/latest/[Bonita Cloud Continuous Delivery add-on] you can use your pre-existing tools to manage your applications deployment on Bonita Cloud.
+Yes. Thanks to our xref:{bcdVersion}@bcd:ROOT:index.adoc[Bonita Cloud Continuous Delivery add-on] you can use your pre-existing tools to manage your applications deployment on Bonita Cloud.
 
 
 == Infrastructure access
