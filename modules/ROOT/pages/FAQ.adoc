@@ -1,5 +1,7 @@
 = Frequently Asked Questions
- 
+
+:description: This page provides short answers to frequently asked questions about Bonita Cloud.
+
 == Difference with the On-premise version
 
 Bonita Cloud *IS NOT* a downgraded On-premise version.
@@ -44,7 +46,13 @@ Yes, Bonita Clouds supports VPN.
 
 Bonita licenses on Bonita Cloud runtimes are automatically renewed 10 days before their expiration date, as long as your subscription is active. You do not need to worry about it.
 
-NOTE: Licenses generated for Bonita Cloud runtimes are valid for 40 days. Therefore you might be surprised to see in the Portal that your license will expire soon. As described above, a new 40-day license will be automatically installed.
+NOTE: Licenses generated for Bonita Cloud runtimes are valid for 40 days. Therefore, you might be surprised to see in the Portal that your license will expire soon. As described above, a new 40-day license will be automatically installed.
+
+=== How is Bonita Cloud operated?
+
+Our architecture is based on Docker containers and Kubernetes as an orchestrator.
+
+The primary objective is to be able to ensure an optimal quality of service: uptime guarantee, performance guarantee, cost optimization.
 
 
 === Service region
@@ -72,24 +80,24 @@ Bonita Cloud runtimes use PostgreSQL.
 
 === I already have a continuous delivery platform. Can I use it with Bonita Cloud?
 
-Yes. Thanks to our https://documentation.bonitasoft.com/bcd/latest/[Bonita Cloud Continuous Delivery add-on] you can use your pre-existing tools to manage your applications deployment on Bonita Cloud.
+Yes. Thanks to our xref:{bcdVersion}@bcd:ROOT:index.adoc[Bonita Cloud Continuous Delivery add-on] you can use your pre-existing tools to manage your applications deployment on Bonita Cloud.
 
 
 == Infrastructure access
 
-Bonita Cloud infrastructure follows the security standard to guarantee data confidentiality and reliability. 
-The Bonitasoft cloud infrastructure team garantees the best level of service on the infrastructure by ensuring strict security processes compliance. 
+Bonita Cloud infrastructure follows the security standard to guarantee data confidentiality and reliability.
+The Bonitasoft cloud infrastructure team guarantees the best level of service on the infrastructure by ensuring strict security processes compliance.
 
-In consequence, Bonitasoft doesn't give direct access to infrastrucure components used by the Bonita Cloud services (i.e. machine, database, file system, ...). 
-Moreover, this protection ensures any mis-usage or bad manipulation by the users that would put at risk the Bonita Cloud SLA. 
+In consequence, Bonitasoft doesn't give direct access to infrastructure components used by the Bonita Cloud services (i.e. machine, database, file system, ...).
+Moreover, this protection ensures any mis-usage or bad manipulation by the users that would put at risk the Bonita Cloud SLA.
 
-Nevertheless, there are multiple options to retreive and integrate Bonita data to an external system, for instance:
+Nevertheless, there are multiple options to retrieve and integrate Bonita data to an external system, for instance:
 
-- Using Bonita API to access data 
-- Implement a connector 
-- Or ask our Professional Services team to implement an Event Handler. 
+- Using Bonita API to access data
+- Implement a connector
+- Or ask our Professional Services team to implement an Event Handler.
 
-Just contact your Bonita Cloud representative for more information. 
+Just contact your Bonita Cloud representative for more information.
 
 //== Monitoring
 //
