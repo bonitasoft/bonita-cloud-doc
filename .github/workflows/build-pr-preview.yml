@@ -3,23 +3,15 @@ name: Build PR preview
 on:
   pull_request:
     paths:
-      - 'modules/ROOT/**'
+      - 'modules/**'
       - 'antora.yml'
       - '.github/workflows/build-pr-preview.yml'
 jobs:
   validate_xref:
     runs-on: ubuntu-22.04
-    env:
-      COMPONENT_NAME: cloud
-      COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
     steps:
       - name: Validate xref
         uses: bonitasoft/bonita-documentation-site/.github/actions/build-pr-site/@master
         with:
-          # '>' Replace newlines with spaces (folded)
-          # '-' No newline at end (strip)
-          build-preview-command: >-
-            ./build-preview.bash
-            --component "${{ env.COMPONENT_NAME }}"
-            --branch "${{ env.COMPONENT_BRANCH_NAME }}"
+          component-name: cloud
           fail-on-warning: true
