@@ -40,7 +40,7 @@ Yes, Bonita Cloud supports several SSO protocols.
 
 === Can I configure a VPN?
 
-No, Bonita Cloud doesn't provide VPN.
+Currently, Bonita Cloud's architecture is designed without support for client VPN configurations.
 
 === Bonita licenses have a short-term expiration date. Do I need to worry about it?
 
