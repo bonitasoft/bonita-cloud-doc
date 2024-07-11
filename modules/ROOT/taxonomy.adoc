@@ -7,7 +7,6 @@
  ** xref:Service_Level_Agreement_Data_Management.adoc[Data Management]
 * Managing Bonita Cloud
  ** xref:ConfigurationPossible.adoc[Configurable elements]
- ** xref:VPNConfiguration.adoc[Connecting Bonita Cloud to your VPN]
  ** xref:LDAPConfiguration.adoc[LDAP Synchronization setup]
  ** xref:SSOConfiguration.adoc[Single Sign-On Configuration]
  ** xref:URL-customization.adoc[URL customization]
