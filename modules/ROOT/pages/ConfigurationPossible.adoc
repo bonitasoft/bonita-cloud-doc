@@ -1,11 +1,12 @@
 = Configurable elements
 
+:description: This page describes the configurable elements in Bonita Cloud.
+
 The following items can be configured in Bonita Cloud:
 
 |===
 | Items
 
-| **V**irtual **P**rivate **N**etwork setup
 | **S**ingle **S**ign-**O**n
 | URL customization
 | LDAP synchronization setup
