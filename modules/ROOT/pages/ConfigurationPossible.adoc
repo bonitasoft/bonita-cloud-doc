@@ -1,5 +1,7 @@
 = Configurable elements
 
+:description: This page describes the configurable elements in Bonita Cloud.
+
 The following items can be configured in Bonita Cloud:
 
 |===
