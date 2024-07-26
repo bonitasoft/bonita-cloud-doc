@@ -13,7 +13,7 @@ NOTE: With Bonita Cloud no need to install any runtime, they're already availabl
 +
 [NOTE]
 ====
-We recommend to use the non-production runtime as follows:
+We recommend to use the non-production runtime if you have subscribed to such an environement as follows:
 
  ** Integration: for tests by the development team with test data
  ** Pre-production: for tests by the final or test users with production-like data.
