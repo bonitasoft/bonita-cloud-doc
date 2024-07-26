@@ -1,10 +1,12 @@
 = Service Availability
 
+:description: This page discribes Service Availability.
+
 == Overall availability definition
 
 The Service is designed to be available to the customer 24 hours a day, 7 days a week, 365 days a year, except during system maintenance windows, unplanned downtime and as otherwise detailed in this chapter.
 
-NOTE: Bonitasoft will use commercially reasonable efforts to ensure a 99.9% overall availability in each billing month for its production runtime.
+NOTE: Bonitasoft will use commercially reasonable efforts to ensure an overall availability in each billing month for its production AppRuntime.
 
 
 The overall service availability value is defined by the following:
@@ -13,8 +15,8 @@ image::images/SLAFormula.png[]
 
 Where:
 
-* Uptime is the number of minutes the runtime is available.
-* Downtime is the number of minutes in each month the runtime is not available (see service availability exclusions).
+* Uptime is the number of minutes the AppRuntime is available.
+* Downtime is the number of minutes in each month the AppRuntime is not available (see service availability exclusions).
 * Total available time is the number of minutes available in a given billing month (31 days: 44 640 minutes, 30 days: 43200 minutes, 29 days: 41760 minutes and 28 days: 40320 minutes).
 
 == Service availability exclusions
@@ -62,7 +64,7 @@ However, Bonitasoft is not responsible for the customer network connection to th
 
 == High Availability
 
-The service offers high availability for its production runtime.
+The service offers high availability for its production AppRuntime.
 
 High availability includes:
 

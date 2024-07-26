@@ -14,25 +14,27 @@ On-premises or in the Cloud. Same:
 
 == Platform setup
 
-=== Runtime URLs
+=== AppRuntime URLs
 
-==== What are the default runtime URLs?
+==== What are the default AppRuntime URLs?
 
 Production
 
 * *_customer-name_*.bonitacloud.com
 
-Pre-production
+Non-Production
+
+* Pre-production
 
 * *_customer-name_*-preproduction.bonitacloud.com
 
-Integration
+* Integration
 
 * *_customer-name_*-integration.bonitacloud.com
 
 ==== Can I customize the URLs?
 
-Yes, the URLs of the runtime can be customized upon request.
+Yes, the URLs of the AppRuntime can be customized upon request.
 
 === Can I configure Single sign-on (SSO)?
 
@@ -44,9 +46,9 @@ Currently, Bonita Cloud's architecture is designed without support for client VP
 
 === Bonita licenses have a short-term expiration date. Do I need to worry about it?
 
-Bonita licenses on Bonita Cloud runtimes are automatically renewed 10 days before their expiration date, as long as your subscription is active. You do not need to worry about it.
+Bonita licenses on Bonita Cloud AppRuntimes are automatically renewed 10 days before their expiration date, as long as your subscription is active. You do not need to worry about it.
 
-NOTE: Licenses generated for Bonita Cloud runtimes are valid for 40 days. Therefore, you might be surprised to see in the Portal that your license will expire soon. As described above, a new 40-day license will be automatically installed.
+NOTE: Licenses generated for Bonita Cloud AppRuntimes are valid for 180 days. Therefore you might be surprised to see in the Portal that your license will expire soon. As described above, a new 180-day license will be automatically installed.
 
 === How is Bonita Cloud operated?
 
@@ -64,19 +66,17 @@ Bonita Cloud is currently available in Europe and North America:
 |===
 | North America | Europe
 
-| Canada        | Ireland
-| United States | United Kingdom
+| United States | Ireland
 |               | France
-|               | Germany
 
 |===
 
 // #### Can I move my platform from one region to another?
 // List again + it is possible to move
 
-=== Which database vendor does Bonita Cloud runtimes use?
+=== Which database vendor does Bonita Cloud AppRuntimes use?
 
-Bonita Cloud runtimes use PostgreSQL.
+Bonita Cloud AppRuntimes use PostgreSQL.
 
 === I already have a continuous delivery platform. Can I use it with Bonita Cloud?
 
@@ -85,7 +85,7 @@ Yes. Thanks to our xref:{bcdVersion}@bcd:ROOT:index.adoc[Bonita Cloud Continuous
 
 == Infrastructure access
 
-Bonita Cloud infrastructure follows the security standard to guarantee data confidentiality and reliability.
+Bonita Cloud infrastructure is ISO27001 Certified and it follows the security standard to guarantee data confidentiality and reliability.
 The Bonitasoft cloud infrastructure team guarantees the best level of service on the infrastructure by ensuring strict security processes compliance.
 
 In consequence, Bonitasoft doesn't give direct access to infrastructure components used by the Bonita Cloud services (i.e. machine, database, file system, ...).
