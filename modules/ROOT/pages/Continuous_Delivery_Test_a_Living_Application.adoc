@@ -1,10 +1,10 @@
-= Test a living application on Non Production Runtimes
+= Test a living application on Non Production AppRuntimes
 
 [NOTE]
 ====
-This functionality is compatible with Bonita Cloud runtimes >= 2022.1 / 7.14.
+This functionality is compatible with Bonita Cloud AppRuntimes >= 2022.1 / 7.14.
 
-It only targets non-production runtimes.
+It only targets non-production AppRuntimes.
 ====
 
 In order to write and execute integration tests for your Bonita processes the Bonita Cloud Continuous Delivery platform integrates the xref:test-toolkit:ROOT:process-testing-overview.adoc[Bonita Test Toolkit].

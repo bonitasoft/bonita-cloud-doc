@@ -1,8 +1,8 @@
-= Deploying a Living Application to Bonita Cloud Non Production Runtimes
+= Deploying a Living Application to Bonita Cloud Non Production AppRuntimes
 
 == Deploy Job
 
-The job "ACTION - Deploy a LivingApp to a non-production runtime" allows you to deploy your living applications to any of your Bonita Cloud runtimes with the development or production policies:
+The job "ACTION - Deploy a LivingApp to a non-production runtime" allows you to deploy your living applications to any of your Bonita Cloud AppRuntimes with the development or production policies:
 
 image::images/DeployJob.png[]
 
@@ -23,7 +23,7 @@ You have several possibilities:
  ** Last completed build
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
-. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
+. Select the target AppRuntime (note that only non-production AppRuntimes are available - to deploy in production see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
 . You can specify the directory that contains the xref:Continuous_Delivery_Test_a_Living_Application.adoc[integration tests] with the INTEGRATION_TESTS_DIR optional field.
 . You can also select xref:{bcdVersion}@bcd:ROOT:deployer.adoc#preconfigured_deployment_policies[the deployment policies] to apply.
 +
