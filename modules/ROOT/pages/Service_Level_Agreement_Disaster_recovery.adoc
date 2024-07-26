@@ -8,13 +8,13 @@ In order to protect your business from such event, Bonita Cloud has put in place
 
 The goal of our disaster recovery plan is to guarantee the continuity of the customer business.
 
-In case of disaster, Bonitasoft targets for its production AppRuntime:
+In case of disaster, Bonitasoft targets for its production AppRuntime with High Availability SLA:
 
-* To recover the service within 15 minutes (**R**ecovery **T**ime **O**bjective: 15 minutes)
+* To recover the service within 60 minutes (**R**ecovery **T**ime **O**bjective: 60 minutes)
 NOTE:
 Recovery Time Objective or RTO is a metric that helps to calculate how quickly Bonitasoft targets to recover its IT infrastructure and services following a disaster in order to maintain the customer's business continuity.
 
-* To limit the data loss to 1 minute (**R**ecovery **P**oint **O**bjective: 1 minute)
+* To limit the data loss to 10 minute (**R**ecovery **P**oint **O**bjective: 10 minute)
 +
 NOTE: Recovery Point Objective or RPO is a metric to define the maximum tolerable amount of data that can be lost following a disaster.
 
