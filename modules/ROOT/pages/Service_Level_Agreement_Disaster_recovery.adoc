@@ -1,5 +1,7 @@
 = Disaster recovery
 
+:description: This page discribes disaster recovery.
+
 A disaster is any unplanned event that causes the total interruption of the production AppRuntime.
 
 In order to protect your business from such event, Bonita Cloud has put in place a **D**isaster **R**ecovery **P**lan.

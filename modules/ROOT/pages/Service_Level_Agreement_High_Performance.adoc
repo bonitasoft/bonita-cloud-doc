@@ -1,5 +1,7 @@
 = High Performance
 
+:description: This page describes High Performance.
+
 With Bonita Cloud, we want you to focus on your business. Our offer includes a worry free infrastructure that will scale with your needs.
 
 Regardless of the number of users, the complexity of the cases, the number of processes or living application;

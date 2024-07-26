@@ -1,5 +1,7 @@
 = Service Availability
 
+:description: This page discribes Service Availability.
+
 == Overall availability definition
 
 The Service is designed to be available to the customer 24 hours a day, 7 days a week, 365 days a year, except during system maintenance windows, unplanned downtime and as otherwise detailed in this chapter.

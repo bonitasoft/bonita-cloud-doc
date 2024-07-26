@@ -1,5 +1,7 @@
 = Getting started with Bonita Cloud
 
+:description: This page shows how to start with Bonita Cloud.
+
 With Bonita Cloud starting a new project has never been easier:
 
 . After receiving all the required technical credentials, https://documentation.bonitasoft.com/bonita/7.10/first-steps-after-setup[create a Bonita Portal administrator for your runtimes]

@@ -1,5 +1,7 @@
 = Retrieve Bonita AppRuntime Logs
 
+:description: This page explains how to retrieve logs from Bonita AppRuntimes.
+
 == Retrieve Bonita Logs Job
 
 The job "ACTION - Retrieve Bonita AppRuntime logs" allows you to retrieve the logs of your Bonita AppRuntime.

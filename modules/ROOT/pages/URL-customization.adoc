@@ -1,5 +1,7 @@
 = URL customization
 
+:description: This page explains how to customize Bonita AppRuntimes URLs.
+
 You can request to customize your domain to have an URL that uses a domain different from the default one (*.bonitacloud.com).
 
 [NOTE]

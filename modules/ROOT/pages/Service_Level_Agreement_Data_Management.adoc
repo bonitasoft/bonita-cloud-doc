@@ -1,5 +1,7 @@
 = Data Management
 
+:description: This page explains Data Management on Bonita Cloud.
+
 Your data is critical. Bonitasoft will provide all the tools and policies to make it secured and available.
 
 == Backups
