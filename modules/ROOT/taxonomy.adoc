@@ -16,12 +16,12 @@
  ** xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc[Configuration]
  ** xref:Continuous_Delivery_Building_a_Living_Application.adoc[Building a Living Application]
  ** Deploying a Living Application
-  *** xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc[Non Production Runtimes]
-  *** xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[Production Runtimes]
+  *** xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc[Non Production AppRuntimes]
+  *** xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[Production AppRuntimes]
  ** xref:Continuous_Delivery_Build_and_deploy.adoc[Build and deploy a Living Application]
  ** xref:Continuous_Delivery_Test_a_Living_Application.adoc[Test a Living Application]
  ** xref:Continuous_Delivery_Managing_Living_Application_configuration.adoc[Managing Living Application configuration]
- ** xref:Retrieve_Bonita_runtime_logs.adoc[Retrieve Bonita runtime logs]
+ ** xref:Retrieve_Bonita_runtime_logs.adoc[Retrieve Bonita AppRuntime logs]
  ** Basic actions
   *** xref:Continuous_Delivery_Generic_Actions_Monitoring.adoc[Monitoring a job]
   *** xref:Continuous_Delivery_Generic_Actions_Parameters.adoc[Check the parameters of a job]

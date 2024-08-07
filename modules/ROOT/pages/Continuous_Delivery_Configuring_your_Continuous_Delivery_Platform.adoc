@@ -50,15 +50,15 @@ image:images/DefBuildJobResult.png[JobResult]
 
 == Default Deploy configuration
 
-This job allows you to define the default build parameters i.e. the BCD Configuration and the target runtime (production, preproduction or integration).
+This job allows you to define the default build parameters i.e. the BCD Configuration and the target AppRuntime (production, non-production).
 
 NOTE: You can use the deploy job without configuring your default deploy configuration.
 
 . Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my default deploy parameters - LivingApp" job.
 . Enter the BCD configuration you wish to use to deploy your default living application
-. Select the runtime to deploy to.
+. Select the AppRuntime to deploy to.
 +
-NOTE: the Bonita version is displayed next to the runtime name.
+NOTE: the Bonita version is displayed next to the AppRuntime name.
 +
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
