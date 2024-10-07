@@ -5,7 +5,7 @@
 With Bonita Cloud starting a new project has never been easier:
 
 . After receiving all the required technical credentials, xref:{bonitaDocVersion}@bonita:runtime:first-steps-after-setup.adoc[create a Bonita Portal administrator for your runtimes]
-. Download the Bonita Studio in your customer Portal (https://customer.bonitasoft.com/download/request[Request a download]).
+. Download the Bonita Studio in your customer Portal (https://csc.bonitacloud.bonitasoft.com/apps/CustomerServices[Request a download]).
 . Develop your application within the studio (xref:{bonitaDocVersion}@bonita:getting-started:getting-started-index.adoc[Getting started]).
 +
 NOTE: With Bonita Cloud no need to install any runtime, they're already available in our cloud.
