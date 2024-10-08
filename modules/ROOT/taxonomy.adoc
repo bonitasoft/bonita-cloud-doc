@@ -1,4 +1,4 @@
-* xref:Overview.adoc[Bonita Cloud overview]
+* xref:overview.adoc[Bonita Cloud overview]
 * xref:Getting_started_with_Bonita_Cloud.adoc[Getting started]
 * Service Level Agreements
  ** xref:Service_Level_Agreement_Service_Availability.adoc[Service Availability]

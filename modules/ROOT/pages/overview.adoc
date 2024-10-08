@@ -1,6 +1,7 @@
 = Bonita Cloud
 
 :description: This page provides an overview of Bonita Cloud.
+:page-aliases: Overview.adoc
 
 ____
 From our business intelligence service to your mission-critical Living Apps, _Bonita Cloud_ makes it easy to deploy, operate, and scale in the cloud.

@@ -7,7 +7,7 @@ Bonita Cloud offers all the values of the Bonita Enterprise platform and its BCD
 
 [.card.card-index]
 --
-xref:Overview.adoc[[.card-title]#Highlights# [.card-body]#pass:q[Discover this new worry-free offer!.]#]
+xref:overview.adoc[[.card-title]#Highlights# [.card-body]#pass:q[Discover this new worry-free offer!.]#]
 --
 
 [.card.card-index]
