@@ -27,4 +27,4 @@
   *** xref:Continuous_Delivery_Generic_Actions_Parameters.adoc[Check the parameters of a job]
   *** xref:Continuous_Delivery_Generic_Actions_Replay.adoc[Replay a job]
   *** xref:Continuous_Delivery_Generic_Actions_ChangePWD.adoc[Change your password]
-* xref:FAQ.adoc[Frequently Asked Questions]
+* xref:faq.adoc[Frequently Asked Questions]
