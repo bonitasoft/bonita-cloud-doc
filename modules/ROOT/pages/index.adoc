@@ -14,5 +14,5 @@ xref:overview.adoc[[.card-title]#Highlights# [.card-body]#pass:q[Discover this n
 
 [.card.card-index]
 --
-xref:Getting_started_with_Bonita_Cloud.adoc[[.card-title]#Getting started# [.card-body]#pass:q[Follow this guide with step-by-step instructions to start using Bonita Cloud.]#]
+xref:getting-started.adoc[[.card-title]#Getting started# [.card-body]#pass:q[Follow this guide with step-by-step instructions to start using Bonita Cloud.]#]
 --
