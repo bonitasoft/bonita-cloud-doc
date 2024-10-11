@@ -10,7 +10,7 @@ image::ProdBuildForm.png[]
 
 == Launching a deployment
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a production runtime" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a production runtime" job.
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
 You have several possibilities:

@@ -3,19 +3,19 @@
 == Location of the configuration
 
 All the jobs linked to the configuration are grouped in the "Configuration" tab:
-image:images/ConfigurationTab.png[CDConfigTab]
+image:ConfigurationTab.png[CDConfigTab]
 
 == Git repository credentials
 
 This job allows you to configure your access to Git but also the https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted[BCD vault password].
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my credentials" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "Configure my credentials" job.
 . Enter the Git user that will have access to your repositories
 . Enter the corresponding password for that account.
 . If you are planning to use the BCD Vault, then you can enter the vault password. This field can be left empty.
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
-image:images/CredentialsJobResult.png[JobResult]
+image:CredentialsJobResult.png[JobResult]
 
 CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 2021 password-based authentication will no longer be accepted. Instead, token-based authentication will be required using a https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token[personal access token]. Therefore you will have to enter your GitHub username in the **bonitaGitUsername** field and your authentication token in the **bonitaGitPassword** field of the "Configure my credentials" job.
 
@@ -23,12 +23,12 @@ CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 20
 
 This job allows you to configure your access to a private Maven repository.
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my private Maven repository" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "Configure my private Maven repository" job.
 . Enter the url used to access your private Maven repository
 . If your private Maven repository require authentication, please enter the username and password used to retrieve your private Maven artifacts, otherwise leave these fields blank
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
-image:images/ConfigureMavenJobResult.png[JobResult]
+image:ConfigureMavenJobResult.png[JobResult]
 
 NOTE: The job only allows setting up a single private Maven repository, to set up multiple repositories please create a new case on the Customer Service Center.
 
@@ -38,15 +38,15 @@ This job allows you to define the default build parameters i.e. the repository U
 
 NOTE: You can use the build job without configuring your default build configuration.
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my default build parameters - LivingApp" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "Configure my default build parameters - LivingApp" job.
 . Enter the URL to your Bonita living application repository (e.g. "https://github.com/acme/myGreatLivingApp.git").
 . Then enter the branch you will be building most of the time.
 . Finally input the environment (as defined in your project) you will be used when building.
 Your job should look like this:
-image:images/BuildDefaultParameters.png[BuildDefaultExample]
+image:BuildDefaultParameters.png[BuildDefaultExample]
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
-image:images/DefBuildJobResult.png[JobResult]
+image:DefBuildJobResult.png[JobResult]
 
 == Default Deploy configuration
 
@@ -54,7 +54,7 @@ This job allows you to define the default build parameters i.e. the BCD Configur
 
 NOTE: You can use the deploy job without configuring your default deploy configuration.
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "Configure my default deploy parameters - LivingApp" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "Configure my default deploy parameters - LivingApp" job.
 . Enter the BCD configuration you wish to use to deploy your default living application
 . Select the runtime to deploy to.
 +
@@ -62,6 +62,6 @@ NOTE: the Bonita version is displayed next to the runtime name.
 +
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
-image:images/DefDeployJobResult.png[JobResult]
+image:DefDeployJobResult.png[JobResult]
 
 

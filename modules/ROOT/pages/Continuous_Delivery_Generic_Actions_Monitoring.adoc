@@ -4,9 +4,9 @@
 
 The result of the last job is displayed next to the job:
 
-* image:images/JobStatusInProgress.png[Inprogress]: Job is in progress
-* image:images/JobStatusOK.png[JobOK]: Last job was successful
-* image:images/JobStatusFailed.png[JobKO]: Last job was unsuccessful
+* image:JobStatusInProgress.png[Inprogress]: Job is in progress
+* image:JobStatusOK.png[JobOK]: Last job was successful
+* image:JobStatusFailed.png[JobKO]: Last job was unsuccessful
 
 _Example_
 
