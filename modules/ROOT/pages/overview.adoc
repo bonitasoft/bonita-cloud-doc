@@ -1,5 +1,4 @@
 = Bonita Cloud
-
 :description: This page provides an overview of Bonita Cloud.
 :page-aliases: Overview.adoc
 

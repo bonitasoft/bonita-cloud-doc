@@ -1,5 +1,4 @@
 = Frequently Asked Questions
-
 :description: This page provides short answers to frequently asked questions about Bonita Cloud.
 :page-aliases: FAQ.adoc
 

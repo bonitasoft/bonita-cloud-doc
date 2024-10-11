@@ -1,5 +1,4 @@
 = Accessing the Bonita Cloud Continuous Delivery Service
-
 :description: This page provides information about accessing the Bonita Cloud Continuous Delivery Service.
 :page-aliases: ROOT:Continuous_Delivery_Access.adoc
 

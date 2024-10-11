@@ -1,5 +1,4 @@
 = LDAP Synchronization setup
-
 :description: This page provides information about LDAP Synchronization setup.
 :page-aliases: ROOT:LDAPConfiguration.adoc
 
