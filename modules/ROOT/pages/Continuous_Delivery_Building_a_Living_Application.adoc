@@ -4,16 +4,16 @@
 
 The job "ACTION - Build a LivingApp" allows you to build your living applications:
 
-image::images/BuildJob.png[]
+image:BuildJob.png[]
 
 == Launching a build
 
-. Click on the image:images/JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Build a LivingApp" job.
+. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Build a LivingApp" job.
 . Your default build configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
 . Click on the build button (lower left).
 . You should see the job progress and steps.
 
-image::images/BuildInProgress.png[]
+image:BuildInProgress.png[]
 
 == Result of a build
 
@@ -29,11 +29,11 @@ WARNING: if your last job fails, it will still display the last successful artif
 +
  ** Open the job by clicking on its title
 +
-image::images/BuildClickToAccessOverview.png[]
+image:BuildClickToAccessOverview.png[]
 +
  ** In the top of the page, you will find the last successful build artifacts
 +
-image::images/OverviewArtefacts.png[]
+image:OverviewArtefacts.png[]
 +
 * Job instance detail
 +
@@ -41,11 +41,11 @@ NOTE: This also allows you to consult previous build result
 +
  ** Open the specific job instance by click on its ID
 +
-image::images/AccessJobDetails.png[]
+image:AccessJobDetails.png[]
 +
  ** You can now consult the result of that job instance:
 +
-image::images/JobDetails.png[]
+image:JobDetails.png[]
 
 === Failed Build
 
@@ -55,12 +55,12 @@ If the job fails then you need to open its logs to understand the issues.
 
 The below build job has failed
 
-image::images/Job158Failed.png[]
+image:Job158Failed.png[]
 
 To get more information on the issue, click on the step that failed and information on the error will be displayed:
 
-image::images/Job158FailedLogs.png[]
+image:Job158FailedLogs.png[]
 
 If this isn't enough then you can click on the "Logs" button to have the full logs:
 
-image::images/Job158FailedLogsDetails.png[]
+image:Job158FailedLogsDetails.png[]
