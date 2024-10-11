@@ -10,9 +10,10 @@
  ** xref:LDAPConfiguration.adoc[LDAP Synchronization setup]
  ** xref:SSOConfiguration.adoc[Single Sign-On Configuration]
  ** xref:URL-customization.adoc[URL customization]
+// TODO move to its own page
 * Continuous Delivery
  ** xref:Continuous_Delivery_Overview.adoc[Overview]
- ** xref:Continuous_Delivery_Access.adoc[Access]
+ ** xref:continuous-delivery:access.adoc[Access]
  ** xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc[Configuration]
  ** xref:Continuous_Delivery_Building_a_Living_Application.adoc[Building a Living Application]
  ** Deploying a Living Application
