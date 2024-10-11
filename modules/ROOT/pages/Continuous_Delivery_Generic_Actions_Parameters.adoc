@@ -2,16 +2,16 @@
 
 . Open the corresponding job by clicking on its title:
 +
-image::images/OpenAJob.gif[]
+image::OpenAJob.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image::images/OpenJobInstance.png[]
+image::OpenJobInstance.png[]
 +
 . On the side panel, click on the "Parameters" entry:
 +
-image::images/AccessParameters.png[]
+image::AccessParameters.png[]
 +
 . You can now view the parameters used in the job instance.
 +
-image::images/DisplayParametersExample.png[]
+image::DisplayParametersExample.png[]

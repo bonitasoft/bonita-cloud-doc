@@ -4,16 +4,16 @@ You can launch a job instance without changing its parameters thanks to the "Rep
 
 . Open the corresponding job by clicking on its title:
 +
-image::images/OpenAJob.gif[]
+image::OpenAJob.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image::images/OpenJobInstance.png[]
+image::OpenJobInstance.png[]
 +
 . On side panel, click on the "Replay" entry:
 +
-image::images/ReplayAJob.png[]
+image::ReplayAJob.png[]
 +
 . Click on the run button and job will be launched again *with the same parameters*:
 +
-image::images/ReplayAJobInstance.gif[]
+image::ReplayAJobInstance.gif[]

@@ -2,14 +2,14 @@
 
 . In the home page, click on your username in the top right of the page:
 +
-image::images/OpenUserSetup.png[]
+image::OpenUserSetup.png[]
 +
 . Open the "Configure" page:
 +
-image::images/ConfigureEntryPoint.png[]
+image::ConfigureEntryPoint.png[]
 +
 . Search for the "Password" section, enter your new password and click on "Save" to apply the new configuration
 +
-image::images/NewPWD.png[]
+image::NewPWD.png[]
 +
 . Reconnect with the new password

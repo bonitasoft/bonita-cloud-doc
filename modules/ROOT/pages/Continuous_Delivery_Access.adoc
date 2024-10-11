@@ -6,14 +6,14 @@ After subscribing to Bonita Cloud, you will be provided access to Bonita Cloud C
 
 Access the URL and use the given credential to connect:
 
-image::images/CD_LoginPage.png[,70%]
+image::CD_LoginPage.png[,70%]
 
 
 == Home page
 
 You land to this page:
 
-image::images/CD_LogHome.png[,70%]
+image::CD_LogHome.png[,70%]
 
 
 == First Connection

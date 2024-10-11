@@ -2,4 +2,4 @@
 
 NOTE: Bonita Cloud includes a ready  to use continuous delivery platform to allow you to *build* and *deploy* projects in a few clicks in order to test, validate and fast track changes
 
-image::images/BonitaCloud_CD_Overview.png[]
+image::BonitaCloud_CD_Overview.png[]

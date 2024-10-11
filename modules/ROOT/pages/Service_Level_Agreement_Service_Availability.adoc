@@ -11,7 +11,7 @@ NOTE: Bonitasoft will use commercially reasonable efforts to ensure an overall a
 
 The overall service availability value is defined by the following:
 
-image::images/SLAFormula.png[]
+image::SLAFormula.png[]
 
 Where:
 

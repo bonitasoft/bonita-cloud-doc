@@ -21,4 +21,4 @@ NOTE: Recovery Point Objective or RPO is a metric to define the maximum tolerabl
 
 == Bonita Cloud Disaster Recovery
 
-image::images/RTO_RPO.png[,100%]
+image::RTO_RPO.png[,100%]
