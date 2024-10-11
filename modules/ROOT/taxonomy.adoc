@@ -5,12 +5,13 @@
  ** xref:Service_Level_Agreement_Disaster_recovery.adoc[Disaster recovery]
  ** xref:Service_Level_Agreement_High_Performance.adoc[High Performance]
  ** xref:Service_Level_Agreement_Data_Management.adoc[Data Management]
+// TODO move to its own taxonomy file
 * Managing Bonita Cloud
  ** xref:ConfigurationPossible.adoc[Configurable elements]
- ** xref:LDAPConfiguration.adoc[LDAP Synchronization setup]
+ ** xref:manage:ldap-configuration.adoc[LDAP Synchronization setup]
  ** xref:SSOConfiguration.adoc[Single Sign-On Configuration]
  ** xref:URL-customization.adoc[URL customization]
-// TODO move to its own page
+// TODO move to its own taxonomy file
 * Continuous Delivery
  ** xref:Continuous_Delivery_Overview.adoc[Overview]
  ** xref:continuous-delivery:access.adoc[Access]
