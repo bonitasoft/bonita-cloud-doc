@@ -10,7 +10,7 @@ The result of the last job is displayed next to the job:
 
 _Example_
 
-image::JobStatusLast.png[,100%]
+image:JobStatusLast.png[,100%]
 
 === Console Output
 
@@ -18,16 +18,16 @@ You can check the different actions and logs done in a job through the "console 
 
 . Open the corresponding job by clicking on its title:
 +
-image::OpenAJob.gif[]
+image:OpenAJob.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image::OpenJobInstance.png[]
+image:OpenJobInstance.png[]
 +
 . On the side panel, click on the "Console Output" entry:
 +
-image::ConsoleOutputAction.png[]
+image:ConsoleOutputAction.png[]
 +
 . You will see all the different actions and logs done during the job:
 +
-image::ConsoleOutputEx.gif[,100%]
+image:ConsoleOutputEx.gif[,100%]

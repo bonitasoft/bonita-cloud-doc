@@ -6,18 +6,18 @@
 
 The job "ACTION - Retrieve Bonita AppRuntime logs" allows you to retrieve the logs of your Bonita AppRuntime.
 
-image::RetrieveLogsEntryPoint.png[]
+image:RetrieveLogsEntryPoint.png[]
 
 == Retrieving the logs
 
 . Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Retrieve Bonita AppRuntime logs" job.
 . This will open a form that enables you to configure the time range of the logs, the output format of the log file (csv or json) and  the target AppRuntime
 +
-image::RetrieveLogsJob.png[]
+image:RetrieveLogsJob.png[]
 +
 . Click on the "Build" button to request the logs
 . When the job is finished, the job will have a build artififact that contains the logs
 +
-image::LogsArtifact.png[]
+image:LogsArtifact.png[]
 +
 . Download the artifact to access your logs

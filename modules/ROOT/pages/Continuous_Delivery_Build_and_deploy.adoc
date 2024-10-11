@@ -4,7 +4,7 @@
 
 This job combines the build and deploy jobs to streamline your build and deploy process with the development or production polices:
 
-image::BuildDeployJob.png[]
+image:BuildDeployJob.png[]
 
 == Launching a deployment
 
@@ -50,7 +50,7 @@ image::BuildDeployJob.png[]
 
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in the job history:
 
-image::LinkToPortal.png[,100%]
+image:LinkToPortal.png[,100%]
 
 === Failed deployment
 
