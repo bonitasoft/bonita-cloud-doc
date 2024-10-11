@@ -23,7 +23,7 @@ Bonita Cloud initial offer includes:
 
 == High Level View
 
-image::images/BCLDOverview.png[,70%]
+image:BCLDOverview.png[,70%]
 
 == Service Regions
 
