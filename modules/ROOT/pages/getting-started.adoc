@@ -1,6 +1,6 @@
 = Getting started with Bonita Cloud
-
 :description: This page shows how to start with Bonita Cloud.
+:page-aliases: Getting_started_with_Bonita_Cloud.adoc
 
 With Bonita Cloud starting a new project has never been easier:
 
