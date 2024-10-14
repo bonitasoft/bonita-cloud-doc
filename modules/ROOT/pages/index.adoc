@@ -1,4 +1,5 @@
 = Welcome to Bonita Cloud documentation website!
+:description: Explain what Bonita Cloud is and how to use it.
 
 Bonita Cloud offers all the values of the Bonita Enterprise platform and its BCD add-on without the hassle of managing the platform operations (upgrades, infrastructure management...).
 
@@ -7,10 +8,10 @@ Bonita Cloud offers all the values of the Bonita Enterprise platform and its BCD
 
 [.card.card-index]
 --
-xref:Overview.adoc[[.card-title]#Highlights# [.card-body]#pass:q[Discover this new worry-free offer!.]#]
+xref:overview.adoc[[.card-title]#Highlights# [.card-body]#pass:q[Discover this new worry-free offer!.]#]
 --
 
 [.card.card-index]
 --
-xref:Getting_started_with_Bonita_Cloud.adoc[[.card-title]#Getting started# [.card-body]#pass:q[Follow this guide with step-by-step instructions to start using Bonita Cloud.]#]
+xref:getting-started.adoc[[.card-title]#Getting started# [.card-body]#pass:q[Follow this guide with step-by-step instructions to start using Bonita Cloud.]#]
 --

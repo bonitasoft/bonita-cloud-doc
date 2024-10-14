@@ -1,6 +1,6 @@
 = Bonita Cloud
-
 :description: This page provides an overview of Bonita Cloud.
+:page-aliases: Overview.adoc
 
 ____
 From our business intelligence service to your mission-critical Living Apps, _Bonita Cloud_ makes it easy to deploy, operate, and scale in the cloud.
@@ -12,12 +12,12 @@ Bonita Cloud initial offer includes:
 
 * In our cloud:
  ** You choose your own hosting package (Small, Medium & Large)
- ** You choose which environement you want to deploy (Production or Non production)
+ ** You choose which environment you want to deploy (Production or Non production)
  ** Each subscription comes with additional Cloud components
  *** Bonita Central to Troubleshoot your platform
-  *** Bonita Conitnuous Integration to Build, Test & Deploy your living applications
+  *** Bonita Continuous Integration to Build, Test & Deploy your living applications
 * SLA: Initial & High Availability
-* Support: Gold elite, Gold elite plus or platinium
+* Support: Gold elite, Gold elite plus or platinum
 * Limited cases depending on the package subscribed
 
 == High Level View
