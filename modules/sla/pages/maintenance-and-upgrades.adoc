@@ -1,2 +1,3 @@
 = Maintenance and upgrades
+:description: Describe the next maintenance and upgrades that will occur on your Cloud instances.
 :page-aliases: ROOT:Service_Level_Agreement_Maintenance_and_upgrades.adoc
