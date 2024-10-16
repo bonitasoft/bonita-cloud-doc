@@ -1,10 +1,10 @@
 * xref:overview.adoc[Bonita Cloud overview]
 * xref:getting-started.adoc[Getting started]
 * Service Level Agreements
- ** xref:Service_Level_Agreement_Service_Availability.adoc[Service Availability]
- ** xref:Service_Level_Agreement_Disaster_recovery.adoc[Disaster recovery]
- ** xref:Service_Level_Agreement_High_Performance.adoc[High Performance]
- ** xref:Service_Level_Agreement_Data_Management.adoc[Data Management]
+ ** xref:sla:service-availability.adoc[Service Availability]
+ ** xref:sla:disaster-recovery.adoc[Disaster recovery]
+ ** xref:sla:high-performance.adoc[High Performance]
+ ** xref:sla:data-management.adoc[Data Management]
 * Managing Bonita Cloud
  ** xref:ConfigurationPossible.adoc[Configurable elements]
  ** xref:LDAPConfiguration.adoc[LDAP Synchronization setup]
