@@ -1,24 +1,15 @@
 = High Performance
-
 :description: This page describes High Performance.
+:page-aliases: ROOT:Service_Level_Agreement_High_Performance.adoc
 
 With Bonita Cloud, we want you to focus on your business. Our offer includes a worry free infrastructure that will scale with your needs.
 
 Regardless of the number of users, the complexity of the cases, the number of processes or living application;
 
-//[TIP]
-//--
-//=> Bonitasoft will guarantee the responsiveness of your production AppRuntimes
-//--
-//
 [example]
 --
 => Bonitasoft will guarantee the responsiveness of your production AppRuntimes
 --
-//
-//****
-//=> Bonitasoft will guarantee the responsiveness of your production AppRuntimes
-//****
 
 
 [NOTE]
@@ -30,4 +21,3 @@ Bonitasoft cannot guarantee the high performance of all its components if the cu
 
 However, Bonitasoft will use commercially reasonable efforts to ensure the performance of the components.
 ====
-

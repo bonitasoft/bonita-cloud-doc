@@ -1,0 +1,9 @@
+= Maintenance and upgrades
+:description: Describe the next maintenance and upgrades that will occur on your Cloud instances.
+:page-aliases: ROOT:Service_Level_Agreement_Maintenance_and_upgrades.adoc
+
+// This page is intentionally empty as it is not part of the documentation, maintenance messages are sent by email
+// It is not part of the taxonomy on purpose. This will be automatically detected with https://github.com/bonitasoft/bonita-documentation-site/issues/590
+// It is kept until someone decides to remove it and redirects it to the home page
+
+NOTE: Maintenance and upgrade notifications are sent by email to the customers.

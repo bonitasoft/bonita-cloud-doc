@@ -1,6 +1,6 @@
 = Disaster recovery
-
-:description: This page discribes disaster recovery.
+:description: This page describes disaster recovery.
+:page-aliases: ROOT:Service_Level_Agreement_Disaster_recovery.adoc
 
 A disaster is any unplanned event that causes the total interruption of the production AppRuntime.
 
@@ -11,8 +11,8 @@ The goal of our disaster recovery plan is to guarantee the continuity of the cus
 In case of disaster, Bonitasoft targets for its production AppRuntime with High Availability SLA:
 
 * To recover the service within 60 minutes (**R**ecovery **T**ime **O**bjective: 60 minutes)
-NOTE:
-Recovery Time Objective or RTO is a metric that helps to calculate how quickly Bonitasoft targets to recover its IT infrastructure and services following a disaster in order to maintain the customer's business continuity.
++
+NOTE: Recovery Time Objective or RTO is a metric that helps to calculate how quickly Bonitasoft targets to recover its IT infrastructure and services following a disaster in order to maintain the customer's business continuity.
 
 * To limit the data loss to 10 minute (**R**ecovery **P**oint **O**bjective: 10 minute)
 +
@@ -21,4 +21,4 @@ NOTE: Recovery Point Objective or RPO is a metric to define the maximum tolerabl
 
 == Bonita Cloud Disaster Recovery
 
-image::images/RTO_RPO.png[,100%]
+image:rto-rpo.png[,100%]

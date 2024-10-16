@@ -1,6 +1,6 @@
 = Service Availability
-
 :description: This page discribes Service Availability.
+:page-aliases: ROOT:Service_Level_Agreement_Service_Availability.adoc
 
 == Overall availability definition
 
@@ -11,7 +11,7 @@ NOTE: Bonitasoft will use commercially reasonable efforts to ensure an overall a
 
 The overall service availability value is defined by the following:
 
-image::images/SLAFormula.png[]
+image:formula.png[]
 
 Where:
 
@@ -34,7 +34,7 @@ The service availability does not include downtime periods due to the following:
  ** Natural disaster
  ** Acts of war or disobedience
  ** Acts against Bonitasoft
- ** Denial of service attacks
+ ** Denial-of-service attacks
 
 == Scheduled maintenance
 
