@@ -1,6 +1,8 @@
 = Managing Living Application configuration
+:description: Explain how to manage a Living application.
+:page-aliases: Continuous_Delivery_Managing_Living_Application_configuration.adoc
 
-The parameters will come from the LIVINGAPP_ENVIRONMENT_NAME you choose to perform your action. It's the name of the process configuration environment as defined in Bonita Studio (Integration, Qualification, Production...) 
+The parameters will come from the `LIVINGAPP_ENVIRONMENT_NAME` you choose to perform your action. It's the name of the process configuration environment as defined in Bonita Studio (Integration, Qualification, Production...)
 
 Then you may want to override some of them using a specific configuration.
 
@@ -10,4 +12,4 @@ Into that directory you are able to store encrypted parameters files using this 
 
 CAUTION: Ensure to encrypt your parameters file before pushing them on your repository. See the https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault documentation] to do so. We also recommend to use private repositories.
 
-A mandatory step to run your jobs is to configure your vault password as described into xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc#_repository_credentials[Repository Credentials]
+A mandatory step to run your jobs is to configure your vault password as described into xref:ROOT:configuring-the-platform.adoc#_repository_credentials[Repository Credentials]

@@ -1,16 +1,18 @@
 = Monitoring a job
+:description: Learn how to monitor a job
+:page-aliases: ROOT:Continuous_Delivery_Generic_Actions_Monitoring.adoc
 
 == Last job result information
 
 The result of the last job is displayed next to the job:
 
-* image:JobStatusInProgress.png[Inprogress]: Job is in progress
-* image:JobStatusOK.png[JobOK]: Last job was successful
-* image:JobStatusFailed.png[JobKO]: Last job was unsuccessful
+* image:job-status-in-progress.png[Inprogress]: Job is in progress
+* image:job-status-ok.png[JobOK]: Last job was successful
+* image:job-status-failed.png[JobKO]: Last job was unsuccessful
 
 _Example_
 
-image:JobStatusLast.png[,100%]
+image:job-status-last.png[,100%]
 
 === Console Output
 
@@ -18,16 +20,16 @@ You can check the different actions and logs done in a job through the "console 
 
 . Open the corresponding job by clicking on its title:
 +
-image:OpenAJob.gif[]
+image:open-a-job.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image:OpenJobInstance.png[]
+image:open-job-instance.png[]
 +
 . On the side panel, click on the "Console Output" entry:
 +
-image:ConsoleOutputAction.png[]
+image:console-output-action.png[]
 +
 . You will see all the different actions and logs done during the job:
 +
-image:ConsoleOutputEx.gif[,100%]
+image:console-output-ex.gif[,100%]
