@@ -1,8 +1,8 @@
 = URL customization
-
 :description: This page explains how to customize Bonita AppRuntimes URLs.
+:page-aliases: ROOT:URL-customization.adoc
 
-You can request to customize your domain to have an URL that uses a domain different from the default one (*.bonitacloud.com).
+You can request to customize your domain to have a URL that uses a domain different from the default one (*.bonitacloud.com).
 
 [NOTE]
 ====
@@ -10,7 +10,7 @@ You can request to customize your domain to have an URL that uses a domain diffe
 ** Bonitasoft manages the SSL certificate lifecycle (request, validation, and renewal).
 ====
 
-== Requesting an URL customization
+== Requesting a URL customization
 
 === Step 1: Open a case on the Customer Service Center
 
@@ -18,7 +18,7 @@ To request a URL Customization of your Bonita Cloud environments, create a new c
 
 * The domain (example: **mydomain.com**) or subdomain (example: **subdomain.mydomain.com**) to delegate to Bonitasoft.
 
-NOTE: This request requires you to delegate responsability of the **whole domain name (or subdomain)** to the Bonita Cloud DNS service. Besides, the same domain (or subdomain) will be applied to all environments.
+NOTE: This request requires you to delegate responsibility of the **whole domain name (or subdomain)** to the Bonita Cloud DNS service. Besides, the same domain (or subdomain) will be applied to all environments.
 
 * The current and new environment Fully Qualified Domain Name (FQDN) as follows:
 |===
@@ -57,4 +57,4 @@ Bonitasoft will confirm with you a window maintenance to perform this customizat
 
 === Step 4: Change NS TTL back to a higher value
 
-Once the new URLs are in place, you will be able to change the TTL for the NS record back to a higher value, for example, 172800 seconds (two days). This will improves latency for your users.
+Once the new URLs are in place, you will be able to change the TTL for the NS record back to a higher value, for example, 172800 seconds (two days). This will improve latency for your users.

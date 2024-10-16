@@ -1,6 +1,6 @@
 = Single Sign-On Configuration
-
 :description: This page explains how to configure Single Sign-On.
+:page-aliases: ROOT:SSOConfiguration.adoc
 
 To simplify the access to your Bonita applications and processes, you can request the setup of a Single-Sign-On authentication for Bonita Cloud.
 
