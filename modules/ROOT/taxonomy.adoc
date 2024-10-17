@@ -11,7 +11,7 @@
  ** xref:manage:sso-configuration.adoc[Single Sign-On Configuration]
  ** xref:manage:url-customization.adoc[URL customization]
 * Continuous Delivery
- ** xref:overview.adoc[Overview]
+ ** xref:continuous-delivery:overview.adoc[Overview]
  ** xref:continous-delivery:access.adoc[Access]
  ** xref:continous-delivery:configuring-the-platform.adoc[Configuration]
 ** Living Applications
