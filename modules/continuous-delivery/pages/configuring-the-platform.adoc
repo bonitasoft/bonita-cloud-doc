@@ -10,8 +10,8 @@ image:configuration-tab.png[CDConfigTab]
 
 [#repository_credentials]
 == Git repository credentials
-
-This job allows you to configure your access to Git but also the xref:3.6@bcd:how_to_use_bcd_with_data_encrypted[BCD vault password].
+// BCD page is deleted on 4.0, that's why we need to hardcode the 3.6 version
+This job allows you to configure your access to Git but also the xref:3.6@bcd:ROOT:how_to_use_bcd_with_data_encrypted[BCD vault password].
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my credentials" job.
 . Enter the Git user that will have access to your repositories
