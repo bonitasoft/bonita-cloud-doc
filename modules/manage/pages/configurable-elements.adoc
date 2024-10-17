@@ -1,6 +1,6 @@
 = Configurable elements
-
 :description: This page describes the configurable elements in Bonita Cloud.
+:page-aliases: ROOT:ConfigurationPossible.adoc
 
 The following items can be configured in Bonita Cloud:
 
@@ -10,7 +10,7 @@ The following items can be configured in Bonita Cloud:
 | **S**ingle **S**ign-**O**n
 | URL customization
 | LDAP synchronization setup
-| Additonal backups
+| Additional backups
 | Runtime restoration
 | Extended backup retention period
 | Additional database storage

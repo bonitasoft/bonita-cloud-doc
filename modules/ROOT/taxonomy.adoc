@@ -6,10 +6,10 @@
  ** xref:sla:high-performance.adoc[High Performance]
  ** xref:sla:data-management.adoc[Data Management]
 * Managing Bonita Cloud
- ** xref:ConfigurationPossible.adoc[Configurable elements]
- ** xref:LDAPConfiguration.adoc[LDAP Synchronization setup]
- ** xref:SSOConfiguration.adoc[Single Sign-On Configuration]
- ** xref:URL-customization.adoc[URL customization]
+ ** xref:manage:configurable-elements.adoc[Configurable elements]
+ ** xref:manage:ldap-configuration.adoc[LDAP Synchronization setup]
+ ** xref:manage:sso-configuration.adoc[Single Sign-On Configuration]
+ ** xref:manage:url-customization.adoc[URL customization]
 * Continuous Delivery
  ** xref:Continuous_Delivery_Overview.adoc[Overview]
  ** xref:Continuous_Delivery_Access.adoc[Access]
