@@ -12,4 +12,4 @@ Into that directory you are able to store encrypted parameters files using this 
 
 CAUTION: Ensure to encrypt your parameters file before pushing them on your repository. See the https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault documentation] to do so. We also recommend to use private repositories.
 
-A mandatory step to run your jobs is to configure your vault password as described into xref:ROOT:configuring-the-platform.adoc#_repository_credentials[Repository Credentials]
+A mandatory step to run your jobs is to configure your vault password as described into xref:continuous-delivery:configuring-the-platform.adoc#repository_credentials[Repository Credentials]

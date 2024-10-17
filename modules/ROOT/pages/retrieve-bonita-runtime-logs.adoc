@@ -10,7 +10,7 @@ image:RetrieveLogsEntryPoint.png[]
 
 == Retrieving the logs
 
-. Click on the image:continous-delivery:jenkins-play-button.png[CDPlayButton] of the "ACTION - Retrieve Bonita AppRuntime logs" job.
+. Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "ACTION - Retrieve Bonita AppRuntime logs" job.
 . This will open a form that enables you to configure the time range of the logs, the output format of the log file (csv or json) and  the target AppRuntime
 +
 image:RetrieveLogsJob.png[]

@@ -25,7 +25,7 @@ You have several possibilities:
  ** Last completed build
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
-. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:living-application/Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc[here])
+. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:living-application/deploy-in-prod-with-bonita-cloud.adoc[here])
 . You can specify the directory that contains the xref:living-application/test-a-living-application.adoc[integration tests] with the INTEGRATION_TESTS_DIR optional field.
 . You can also select xref:{bcdVersion}@bcd:ROOT:deployer.adoc#preconfigured_deployment_policies[the deployment policies] to apply.
 +
