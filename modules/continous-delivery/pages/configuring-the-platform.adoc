@@ -9,7 +9,7 @@ image:configuration-tab.png[CDConfigTab]
 
 == Git repository credentials
 
-This job allows you to configure your access to Git but also the https://documentation.bonitasoft.com/bcd/3.2/how_to_use_bcd_with_data_encrypted[BCD vault password].
+This job allows you to configure your access to Git but also the xref:{bcdVersion}@bcd:how_to_use_bcd_with_data_encrypted[BCD vault password].
 
 . Click on the image:continous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my credentials" job.
 . Enter the Git user that will have access to your repositories

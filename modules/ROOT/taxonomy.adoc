@@ -21,7 +21,7 @@
   *** xref:continous-delivery:living-application/build-and-deploy.adoc[Build and deploy a Living Application]
   *** xref:continous-delivery:living-application/test-a-living-application.adoc[Test a Living Application]
    *** xref:continous-delivery:living-application/manage-configuration.adoc[Managing Living Application configuration]
- ** xref:Retrieve_Bonita_runtime_logs.adoc[Retrieve Bonita runtime logs]
+ ** xref:retrieve-bonita-runtime-logs.adoc[Retrieve Bonita runtime logs]
  ** Basic actions
   *** xref:continous-delivery:basic-actions/monitoring.adoc[Monitoring a job]
   *** xref:continous-delivery:basic-actions/[Check the parameters of a job]

@@ -1,5 +1,5 @@
 = Deploying a Living Application to Bonita Cloud Non Production Runtimes
-:description:
+:description: Lear how to deploy a living application to Bonita Cloud Non Production Runtimes
 :page-aliases: ROOT:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc
 
 == Deploy Job

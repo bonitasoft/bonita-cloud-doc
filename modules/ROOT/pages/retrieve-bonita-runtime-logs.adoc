@@ -1,6 +1,6 @@
 = Retrieve Bonita AppRuntime Logs
-
 :description: This page explains how to retrieve logs from Bonita AppRuntimes.
+:page-aliases: ROOT:Retrieve_Bonita_runtime_logs.adoc
 
 == Retrieve Bonita Logs Job
 
