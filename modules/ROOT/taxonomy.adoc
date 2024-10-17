@@ -24,7 +24,7 @@
  ** xref:retrieve-bonita-runtime-logs.adoc[Retrieve Bonita runtime logs]
  ** Basic actions
   *** xref:continuous-delivery:basic-actions/monitoring.adoc[Monitoring a job]
-  *** xref:continuous-delivery:basic-actions/[Check the parameters of a job]
-  *** xref:continuous-delivery:basic-actions/[Replay a job]
+  *** xref:continuous-delivery:basic-actions/check-parameters.adoc[Check the parameters of a job]
+  *** xref:continuous-delivery:basic-actions/replay.adoc[Replay a job]
   *** xref:continuous-delivery:basic-actions/change-password.adoc[Change your password]
 * xref:faq.adoc[Frequently Asked Questions]

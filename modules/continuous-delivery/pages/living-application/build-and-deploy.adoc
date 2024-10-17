@@ -12,7 +12,7 @@ image:build-deploy-job.png[]
 
 . Click on the image:jenkins-play-button.png[CDPlayButton] of the "ACTION - Build and Deploy a LivingApp to a non-production runtime" job.
 . Your default build and deploy configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
-. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:deploying-to-bonita-cloud.adoc[here])
+. Select the target runtime (note that only non-production runtimes are available - to deploy in production see xref:living-application//deploying-to-bonita-cloud.adoc[here])
 . If needed, you can fill xref:{bcdVersion}@bcd:ROOT:deployer.adoc#deployment_descriptor_file[the Deployment Descriptor] in the DEPLOY_JSON field to specify which resources have to be deployed, and with which policy. When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the Development or Production Policies.
 . You can specify the directory that contains the xref:living-application/test-a-living-application.adoc[integration tests] with the INTEGRATION_TESTS_DIR optional field.
 . You can also select the deployment policies to apply. Warning: It may be overridden by policies inside DEPLOY_JSON.
