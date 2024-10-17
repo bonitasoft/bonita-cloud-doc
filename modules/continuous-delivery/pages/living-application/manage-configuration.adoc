@@ -1,6 +1,6 @@
 = Managing Living Application configuration
 :description: Explain how to manage a Living application.
-:page-aliases: Continuous_Delivery_Managing_Living_Application_configuration.adoc
+:page-aliases: ROOT:Continuous_Delivery_Managing_Living_Application_configuration.adoc
 
 The parameters will come from the `LIVINGAPP_ENVIRONMENT_NAME` you choose to perform your action. It's the name of the process configuration environment as defined in Bonita Studio (Integration, Qualification, Production...)
 
