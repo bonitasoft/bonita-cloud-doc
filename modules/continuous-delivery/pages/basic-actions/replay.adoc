@@ -1,19 +1,21 @@
 = Replay a job
+:description: You can launch a job instance without changing its parameters thanks to the "Replay" action.
+:page-aliases: ROOT:Continuous_Delivery_Generic_Actions_Replay.adoc
 
-You can launch a job instance without changing its parameters thanks to the "Replay" action.
+{description}
 
 . Open the corresponding job by clicking on its title:
 +
-image:OpenAJob.gif[]
+image:open-a-job.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image:OpenJobInstance.png[]
+image:open-job-instance.png[]
 +
 . On side panel, click on the "Replay" entry:
 +
-image:ReplayAJob.png[]
+image:replay-a-job.png[]
 +
 . Click on the run button and job will be launched again *with the same parameters*:
 +
-image:ReplayAJobInstance.gif[]
+image:replay-a-job-instance.gif[]

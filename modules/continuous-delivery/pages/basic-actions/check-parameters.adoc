@@ -1,17 +1,20 @@
 = Check the parameters of a previous job
+:description: Learn how to check the parameters of a previous job
+:page-aliases: ROOT:Continuous_Delivery_Generic_Actions_Parameters.adoc
+
 
 . Open the corresponding job by clicking on its title:
 +
-image:OpenAJob.gif[]
+image:open-a-job.gif[]
 +
 . Open the corresponding job instance by click on its ID in the main list or side list
 +
-image:OpenJobInstance.png[]
+image:open-job-instance.png[]
 +
 . On the side panel, click on the "Parameters" entry:
 +
-image:AccessParameters.png[]
+image:access-parameters.png[]
 +
 . You can now view the parameters used in the job instance.
 +
-image:DisplayParametersExample.png[]
+image:display-parameters-example.png[]

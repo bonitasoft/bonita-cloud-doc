@@ -1,0 +1,26 @@
+= Accessing the Bonita Cloud Continuous Delivery Service
+:description: Accessing the Bonita Cloud Continuous Delivery Service
+:page-aliases: ROOT:Continuous_Delivery_Access.adoc
+
+After subscribing to Bonita Cloud, you will be provided access to Bonita Cloud Continuous Delivery platform.
+
+== Login
+
+Access the URL and use the given credential to connect:
+
+image:login-page.png[,70%]
+
+
+== Home page
+
+You land to this page:
+
+image:login-home.png[,70%]
+
+
+== First Connection
+
+Please start by configuring your xref:configuring-the-platform.adoc[Continuous Delivery Service]
+
+CAUTION: We strongly recommend that you xref:basic-actions/change-password.adoc[change your password].
+

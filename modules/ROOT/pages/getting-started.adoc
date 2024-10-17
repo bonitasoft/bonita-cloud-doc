@@ -10,7 +10,7 @@ With Bonita Cloud starting a new project has never been easier:
 +
 NOTE: With Bonita Cloud no need to install any runtime, they're already available in our cloud.
 +
-. Configure your xref:Continuous_Delivery_Configuring_your_Continuous_Delivery_Platform.adoc[Bonita Cloud Continuous Delivery platform].
+. Configure your xref:continuous-delivery:configuring-the-platform.adoc[Bonita Cloud Continuous Delivery platform].
 . Use Bonita Cloud Continuous Delivery platform to build and deploy your application to the Integration or Pre-production runtimes (xref:Continuous_Delivery_Build_and_deploy.adoc[Building and deploying to Bonita Cloud]).
 +
 [NOTE]

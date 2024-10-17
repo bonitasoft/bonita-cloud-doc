@@ -1,16 +1,18 @@
 = Deploying a Living Application to Bonita Cloud Production Runtimes
+:description: Learn how to deploy a living application to Bonita Cloud Production Runtimes
+:page-aliases: ROOT:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud_Prod.adoc
 
 == Deploy Job
 
 The job "ACTION - Deploy a LivingApp to a production runtime" allows to you deploy your living applications to any of your *production* Bonita Cloud runtimes:
 
-image:DeployProdJob.png[]
+image:deploy-prod-job.png[]
 
-image:ProdBuildForm.png[]
+image:prod-build-form.png[]
 
 == Launching a deployment
 
-. Click on the image:JenkinsPlayButton.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a production runtime" job.
+. Click on the image:jenkins-play-button.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a production runtime" job.
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
 You have several possibilities:
@@ -23,7 +25,7 @@ You have several possibilities:
  ** Last completed build
  ** Specified by permalink
  ** Copy from WORKSPACE of the latest completed build
-. Select the target runtime (note that only production runtimes are available - to deploy on non-production runtimes see xref:Continuous_Delivery_Deploying_a_Living_Application_to_Bonita_Cloud.adoc[here])
+. Select the target runtime (note that only production runtimes are available - to deploy on non-production runtimes see xref:living-application/deploying-to-bonita-cloud.adoc[here])
 . For troubleshooting purposes, you can activate the "Debug_mode" option to activate the debug verbose mode.
 . Click on the build button (lower left).
 . You should see the job progress and steps.
@@ -59,7 +61,7 @@ When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the Produ
 
 To use the deployment descriptor, enter the content of the deploy.json in the `DEPLOY_JSON` optional field.
 
-image:ProdBuildFormDeployDescriptor.png[]
+image:prod-build-form-deploy-descriptor.png[]
 
 == Result of a deployment
 
@@ -67,4 +69,4 @@ image:ProdBuildFormDeployDescriptor.png[]
 
 If the job is successful, you can directly access the corresponding portal (in order to test) by click on the link displayed in the job history:
 
-image:LinkToPortal.png[]
+image:link-to-portal.png[]
