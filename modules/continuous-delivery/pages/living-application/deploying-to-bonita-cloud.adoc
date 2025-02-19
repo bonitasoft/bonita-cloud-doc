@@ -12,6 +12,7 @@ image:non-prod-build-form.png[]
 
 == Launching a deployment
 
+. If your project contains applications created with xref:bonita:ROOT:applications/ui-builder/bonita-ui-builder[Bonita UI Builder], ensure that the UIB application files (`.json`) are placed inside the `uib/` directory in your Git repository.
 . Click on the image:jenkins-play-button.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a non-production runtime" job.
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
