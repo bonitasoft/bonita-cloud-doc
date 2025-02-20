@@ -8,7 +8,7 @@ The job **"ACTION - Deploy UIB application files"** allows you to deploy your xr
 
 image:deploy-uib-job.png[]
 
-image:deploy-uib-job-form.png[scaledwidth=80%]
+image:deploy-uib-job-form.png[scaledwidth=60%]
 
 [NOTE]
 ====

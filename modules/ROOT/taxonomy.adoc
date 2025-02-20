@@ -19,7 +19,7 @@
   *** xref:continuous-delivery:living-application/deploying-to-bonita-cloud.adoc[Non Production Runtimes]
   *** xref:continuous-delivery:living-application/deploy-in-prod-with-bonita-cloud.adoc[Production Runtimes]
   *** xref:continuous-delivery:living-application/build-and-deploy.adoc[Build and deploy a Living Application]
-  *** xref:continuous-delivery:living-application/deploying-uib-apps.adoc[Deploying UI Builder applications]
+  *** xref:continuous-delivery:living-application/deploying-uib-apps.adoc[Deploy UI Builder applications]
   *** xref:continuous-delivery:living-application/test-a-living-application.adoc[Test a Living Application]
    *** xref:continuous-delivery:living-application/manage-configuration.adoc[Managing Living Application configuration]
  ** xref:retrieve-bonita-runtime-logs.adoc[Retrieve Bonita runtime logs]
