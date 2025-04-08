@@ -13,7 +13,7 @@ image:deploy-uib-job-form.png[scaledwidth=60%]
 [NOTE]
 ====
 This job is **automatically launched** as part of the LivingApp deployment process.  
-You **do not need to trigger this job manually** unless they want to **deploy UIB applications only** without redeploying the LivingApps.
+You **do not need to trigger this job manually** unless you want to **deploy UIB applications only** without redeploying the LivingApps.
 ====
 
 == Prerequisites
