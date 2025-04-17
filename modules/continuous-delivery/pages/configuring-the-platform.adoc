@@ -70,7 +70,9 @@ image:def-deploy-job-result.png[JobResult]
 
 == Default Deploy configuration for UIB applications
 
-This job allows you to define the default build parameters i.e. the repository URL, the branch, and environment to build to avoid having to re-enter the same parameters in the deploy-uib job.
+This job allows you to define the default build parameters i.e. the repository URL, the branch, and environment to build to avoid having to re-enter the same parameters in the deploy-uib job. 
+
+NOTE: This job is only useful for versions of Bonita >= 2024.3/10.2.
 
 NOTE: You can use the deploy-uib job without configuring your default build configuration.
 
