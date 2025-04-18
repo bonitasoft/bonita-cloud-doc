@@ -2,6 +2,8 @@
 :description: Learn how to deploy a Bonita UI Builder application to Bonita
 :page-aliases: ROOT:Continuous_Delivery_Deploying_a_Bonita_UI_Builder_Application.adoc
 
+NOTE: This job is only useful for versions of Bonita >= 2024.3/10.2.
+
 == Deploy Job
 
 The job **"ACTION - Deploy UIB application files"** allows you to deploy your xref:bonita:ROOT:applications/ui-builder/bonita-ui-builder[Bonita UI Builder] applications.
