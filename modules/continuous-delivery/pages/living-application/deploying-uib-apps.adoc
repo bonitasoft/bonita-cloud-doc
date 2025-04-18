@@ -1,0 +1,43 @@
+= Deploying Bonita UI Builder (UIB) Applications
+:description: Learn how to deploy a Bonita UI Builder application to Bonita
+:page-aliases: ROOT:Continuous_Delivery_Deploying_a_Bonita_UI_Builder_Application.adoc
+
+NOTE: This job is only useful for versions of Bonita >= 2024.3/10.2.
+
+== Deploy Job
+
+The job **"ACTION - Deploy UIB application files"** allows you to deploy your xref:bonita:ROOT:applications/ui-builder/bonita-ui-builder[Bonita UI Builder] applications.
+
+image:deploy-uib-job.png[]
+
+image:deploy-uib-job-form.png[scaledwidth=60%]
+
+[NOTE]
+====
+This job is **automatically launched** as part of the LivingApp deployment process.  
+You **do not need to trigger this job manually** unless you want to **deploy UIB applications only** without redeploying the LivingApps.
+====
+
+== Prerequisites
+
+Ensure that the UIB application files (`.json`) are placed inside the `uib/` directory in your Git repository.
+
+== Launching a deployment manually
+
+If you need to **manually** deploy Bonita UI Builder applications **without redeploying the LivingApps**, follow these steps:
+
+. Click on the image:jenkins-play-button.png[CDPlayButton] of the **"ACTION - Deploy UIB application files"** job.
+. Your default build configuration will be pre-loaded. If needed, you can modify it (repository URL, branch, etc.).
+. Select the target runtime.
+. Click on the build button (lower left).
+. Monitor the job execution.
+
+== Result of a deployment
+
+=== Successful Deployment
+
+If the job completes successfully, you will be able to access your Bonita UI Builder applications.
+
+=== Failed Deployment
+
+If the job fails, check the logs to diagnose and resolve the issue.
