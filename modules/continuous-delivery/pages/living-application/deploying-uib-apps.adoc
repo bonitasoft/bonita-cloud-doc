@@ -28,7 +28,7 @@ If you need to **manually** deploy Bonita UI Builder applications **without rede
 
 . Click on the image:jenkins-play-button.png[CDPlayButton] of the **"ACTION - Deploy UIB application files"** job.
 . Your default build configuration will be pre-loaded. If needed, you can modify it (repository URL, branch, etc.).
-. Select the target runtime.
+. Select the target AppRuntime.
 . Click on the build button (lower left).
 . Monitor the job execution.
 
