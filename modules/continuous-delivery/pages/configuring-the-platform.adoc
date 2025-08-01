@@ -28,11 +28,11 @@ CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 20
 This job lets you manage your private Maven repositories by adding, updating, or deleting repository configurations.
 
 .Parameters:
-* *mavenPrivateRepoSelector* :: Select an existing configuration or add a new one by choosing _Add new maven repo_.
-* *privateMavenRepo* :: URL for your private Maven repository (required for add/update).
-* *privateMavenUsername* :: Username for authentication (optional).
-* *privateMavenPassword* :: Password for authentication (optional).
-* *deleteSelectedRepo* :: Select “yes” to delete the selected repository (only enabled for existing configs).
+* *configurations* :: Select an existing configuration or add a new one by choosing _Add new maven repo_.
+* *url* :: URL for your private Maven repository (required for add/update).
+* *username* :: Username for authentication (optional).
+* *password* :: Password for authentication (optional).
+* *remove* :: Select “yes” to delete the selected repository (only enabled for existing configs).
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my private Maven repository" job.
 . Fill in the parameters as described above.
