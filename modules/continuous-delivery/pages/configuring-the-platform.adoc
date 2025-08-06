@@ -25,16 +25,22 @@ CAUTION: If your Git repository is hosted on GitHub.com, beginning August 13, 20
 
 == Maven repository credentials
 
-This job allows you to configure your access to a private Maven repository.
+This job lets you manage your private Maven repositories by adding, updating, or deleting repository configurations.
+
+.Parameters:
+* *configurations* :: Select an existing configuration or add a new one by choosing _Add new maven repo_.
+* *url* :: URL for your private Maven repository (required for add/update).
+* *username* :: Username for authentication (optional).
+* *password* :: Password for authentication (optional).
+* *remove* :: Select “yes” to delete the selected repository (only enabled for existing configs).
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my private Maven repository" job.
-. Enter the url used to access your private Maven repository
-. If your private Maven repository require authentication, please enter the username and password used to retrieve your private Maven artifacts, otherwise leave these fields blank
-. Click on the "Build" button to save the configuration
+. Fill in the parameters as described above.
+. Click on the "Build" button to save the configuration.
 . Make sure the job was successful:
 image:configure-maven-job-result.png[JobResult]
 
-NOTE: The job only allows setting up a single private Maven repository, to set up multiple repositories please create a new case on the Customer Service Center.
+NOTE: You can add new repositories, update existing ones, or delete them as needed.
 
 == Default Build configuration
 
