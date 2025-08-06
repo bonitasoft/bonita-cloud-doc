@@ -4,18 +4,18 @@
 
 With Bonita Cloud starting a new project has never been easier:
 
-. After receiving all the required technical credentials, xref:{bonitaDocVersion}@bonita:runtime:first-steps-after-setup.adoc[create a Bonita Portal administrator for your runtimes]
+. After receiving all the required technical credentials, xref:{bonitaDocVersion}@bonita:runtime:first-steps-after-setup.adoc[create a Bonita Portal administrator for your AppRuntimes]
 . Download the Bonita Studio in your customer Portal (https://csc.bonitacloud.bonitasoft.com/apps/CustomerServices[Request a download]).
 . Develop your application within the studio (xref:{bonitaDocVersion}@bonita:getting-started:getting-started-index.adoc[Getting started]).
 +
-NOTE: With Bonita Cloud no need to install any runtime, they're already available in our cloud.
+NOTE: With Bonita Cloud no need to install any AppRuntime, they're already available in our cloud.
 +
 . Configure your xref:continuous-delivery:configuring-the-platform.adoc[Bonita Cloud Continuous Delivery platform].
-. Use Bonita Cloud Continuous Delivery platform to build and deploy your application to the Integration or Pre-production runtimes (xref:Continuous_Delivery_Build_and_deploy.adoc[Building and deploying to Bonita Cloud]).
+. Use Bonita Cloud Continuous Delivery platform to build and deploy your application to the Integration or Pre-production AppRuntimes (xref:Continuous_Delivery_Build_and_deploy.adoc[Building and deploying to Bonita Cloud]).
 +
 [NOTE]
 ====
-We recommend to use the non-production runtime if you have subscribed to such an environement as follows:
+We recommend to use the non-production AppRuntime if you have subscribed to such an environement as follows:
 
  ** Integration: for tests by the development team with test data
  ** Pre-production: for tests by the final or test users with production-like data.

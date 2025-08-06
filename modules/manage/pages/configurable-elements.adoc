@@ -11,11 +11,11 @@ The following items can be configured in Bonita Cloud:
 | URL customization
 | LDAP synchronization setup
 | Additional backups
-| Runtime restoration
+| AppRuntime restoration
 | Extended backup retention period
 | Additional database storage
 | Additional outbound data
-| Additional runtime (Production or Non Production)
+| Additional AppRuntime (Production or Non Production)
 |===
 
 Any request not included in items above can be submitted to Bonitasoft for review.
