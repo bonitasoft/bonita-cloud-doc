@@ -60,15 +60,15 @@ image:def-build-job-result.png[JobResult]
 
 == Default Deploy configuration
 
-This job allows you to define the default build parameters i.e. the BCD Configuration and the target runtime (production, preproduction or integration).
+This job allows you to define the default build parameters i.e. the BCD Configuration and the target AppRuntime (production, non-production).
 
 NOTE: You can use the deploy job without configuring your default deploy configuration.
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my default deploy parameters - LivingApp" job.
 . Enter the BCD configuration you wish to use to deploy your default living application
-. Select the runtime to deploy to.
+. Select the AppRuntime to deploy to.
 +
-NOTE: the Bonita version is displayed next to the runtime name.
+NOTE: the Bonita version is displayed next to the AppRuntime name.
 +
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
@@ -85,7 +85,7 @@ NOTE: You can use the deploy-uib job without configuring your default build conf
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my default deploy-uib parameters - LivingApp" job.
 . Enter the URL to your Bonita living application repository (e.g. "https://github.com/acme/myGreatLivingApp.git").
 . Then enter the branch you will be building most of the time.
-. Select the runtime to deploy to.
+. Select the AppRuntime to deploy to.
 Your job should look like this:
 image:deploy-uib-default-parameters.png[DeployUIBDefaultExample]
 . Click on the "Build" button to save the configuration
