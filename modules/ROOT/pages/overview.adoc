@@ -14,7 +14,6 @@ Bonita Cloud initial offer includes:
  ** You choose your own hosting package (Small, Medium & Large)
  ** You choose which environment you want to deploy (Production or Non production)
  ** Each subscription comes with additional Cloud components
- *** Bonita Central to Troubleshoot your platform
   *** Bonita Continuous Integration to Build, Test & Deploy your living applications
 * SLA: Initial & High Availability
 * Support: Gold elite, Gold elite plus or platinum
