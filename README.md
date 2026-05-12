@@ -1,6 +1,6 @@
 # Bonita Cloud documentation sources
 
-This repository contains the sources of the [Bonita Cloud documentation site](https://documentation.bonitasoft.com/cloud/latest).
+This repository contains the sources of the [Bonita Cloud documentation site](https://documentation.ofelia.com/cloud/latest).
 It uses the [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/) format for the documentation content.
 
 
