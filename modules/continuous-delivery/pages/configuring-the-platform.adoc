@@ -10,13 +10,11 @@ image:configuration-tab.png[CDConfigTab]
 
 [#repository_credentials]
 == Git repository credentials
-// BCD page is deleted on 4.0, that's why we need to hardcode the 3.6 version
-This job allows you to configure your access to Git but also the xref:3.6@bcd:ROOT:how_to_use_bcd_with_data_encrypted.adoc[BCD vault password].
+This job allows you to configure your access to Git.
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my credentials" job.
 . Enter the Git user that will have access to your repositories
 . Enter the corresponding password for that account.
-. If you are planning to use the BCD Vault, then you can enter the vault password. This field can be left empty.
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
 image:credentials-job-result.png[JobResult]
@@ -76,7 +74,7 @@ image:def-deploy-job-result.png[JobResult]
 
 == Default Deploy configuration for UIB applications
 
-This job allows you to define the default build parameters i.e. the repository URL, the branch, and environment to build to avoid having to re-enter the same parameters in the deploy-uib job. 
+This job allows you to define the default build parameters i.e. the repository URL, the branch, and environment to build to avoid having to re-enter the same parameters in the deploy-uib job.
 
 NOTE: This job is only useful for versions of Bonita >= 2024.3/10.2.
 
