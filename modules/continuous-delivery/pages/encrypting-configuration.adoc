@@ -1,0 +1,35 @@
+= Encrypting configuration parameters
+:description: How to encrypt sensitive data stored in Bonita Cloud configuration parameter files.
+
+The configuration parameter files (`parameters-<BCD_CONFIGURATION_NAME>.yml`) stored in the `.bcd_configurations` directory of your Living Application repository (see xref:living-application/manage-configuration.adoc[Managing Living Application configuration]) may contain sensitive data such as passwords or private credentials. Although you may restrict access to your repository, it is strongly recommended to encrypt these files so that the sensitive values are never stored in clear text.
+
+Bonita Cloud supports https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault] to encrypt parameter files. Vault-encrypted files are automatically decrypted at runtime, provided that the matching vault password has been configured in the xref:configuring-the-platform.adoc#repository_credentials[Configure my credentials] job.
+
+== Encrypt a parameters file
+
+Use the `ansible-vault encrypt` command to encrypt your parameter file with the vault password configured on your Continuous Delivery platform:
+
+[source,bash]
+----
+ansible-vault encrypt .bcd_configurations/parameters-<BCD_CONFIGURATION_NAME>.yml
+----
+
+When prompted, enter the same password as the one set in the xref:configuring-the-platform.adoc#repository_credentials[Configure my credentials] job. Once encrypted, the file can be safely committed to your Git repository.
+
+== View, edit or decrypt an encrypted file
+
+If you need to inspect or modify the content of an encrypted parameters file, use the corresponding `ansible-vault` commands:
+
+[source,bash]
+----
+ansible-vault view .bcd_configurations/parameters-<BCD_CONFIGURATION_NAME>.yml
+ansible-vault edit .bcd_configurations/parameters-<BCD_CONFIGURATION_NAME>.yml
+ansible-vault decrypt .bcd_configurations/parameters-<BCD_CONFIGURATION_NAME>.yml
+----
+
+Refer to the https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault] documentation for detailed information about this feature.
+
+== Caveats
+
+* You may encrypt several files but the password must be the same for all files used together within the same Continuous Delivery platform.
+* The vault password used to encrypt your files must match the one configured in the xref:configuring-the-platform.adoc#repository_credentials[Configure my credentials] job, otherwise the decryption will fail at runtime.

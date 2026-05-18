@@ -10,11 +10,12 @@ image:configuration-tab.png[CDConfigTab]
 
 [#repository_credentials]
 == Git repository credentials
-This job allows you to configure your access to Git.
+This job allows you to configure your access to Git but also the xref:encrypting-configuration.adoc[vault password] used to decrypt your configuration parameters at runtime.
 
 . Click on the image:continuous-delivery:jenkins-play-button.png[CDPlayButton] of the "Configure my credentials" job.
 . Enter the Git user that will have access to your repositories
 . Enter the corresponding password for that account.
+. If you are planning to xref:encrypting-configuration.adoc[encrypt your configuration parameters], then you can enter the vault password. This field can be left empty.
 . Click on the "Build" button to save the configuration
 . Make sure the job was successful:
 image:credentials-job-result.png[JobResult]
