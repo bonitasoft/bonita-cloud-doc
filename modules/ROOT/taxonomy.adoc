@@ -22,6 +22,7 @@
   *** xref:continuous-delivery:living-application/deploying-uib-apps.adoc[Deploy UI Builder applications]
   *** xref:continuous-delivery:living-application/test-a-living-application.adoc[Test a Living Application]
    *** xref:continuous-delivery:living-application/manage-configuration.adoc[Managing Living Application configuration]
+ ** xref:continuous-delivery:encrypting-configuration.adoc[Encrypting configuration parameters]
  ** xref:retrieve-bonita-runtime-logs.adoc[Retrieve Bonita AppRuntime logs]
  ** Basic actions
   *** xref:continuous-delivery:basic-actions/monitoring.adoc[Monitoring a job]

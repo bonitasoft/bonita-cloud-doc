@@ -10,6 +10,6 @@ To do so your git repository should contains a directory called .bcd_configurati
 
 Into that directory you are able to store encrypted parameters files using this naming convention: parameters-<BCD_CONFIGURATION_NAME>.yml
 
-CAUTION: Ensure to encrypt your parameters file before pushing them on your repository. See the https://docs.ansible.com/ansible/latest/user_guide/vault.html[Ansible Vault documentation] to do so. We also recommend to use private repositories.
+CAUTION: Ensure to encrypt your parameters file before pushing them on your repository. See xref:continuous-delivery:encrypting-configuration.adoc[Encrypting configuration parameters] to do so. We also recommend to use private repositories.
 
 A mandatory step to run your jobs is to configure your vault password as described into xref:continuous-delivery:configuring-the-platform.adoc#repository_credentials[Repository Credentials]
