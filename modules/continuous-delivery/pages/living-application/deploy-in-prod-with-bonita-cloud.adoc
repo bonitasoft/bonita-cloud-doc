@@ -14,6 +14,12 @@ image:prod-build-form.png[]
 
 . If your project contains applications created with xref:ui-builder::index.adoc[Bonita UI Builder], ensure that the UIB application files (`.json`) are placed inside the `uib/` directory in your Git repository.
 . Click on the image:jenkins-play-button.png[CDPlayButton] of the "ACTION - Deploy a LivingApp to a production runtime" job.
++
+[NOTE]
+====
+If your repository contains a `uib/` directory, UIB applications are deployed automatically after the LivingApp deploy. +
+To skip UIB deployment for this run, uncheck the **`DEPLOY_UIB`** option. The LivingApp itself will still be deployed.
+====
 . Your default deploy configuration will be pre-loaded. If needed you can change it.
 . You still need to select the build you want to deploy.
 You have several possibilities:
