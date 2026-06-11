@@ -12,6 +12,12 @@ image:build-deploy-job.png[]
 
 . If your project contains applications created with xref:ui-builder::index.adoc[Bonita UI Builder], ensure that the UIB application files (`.json`) are placed inside the `uib/` directory in your Git repository.
 . Click on the image:jenkins-play-button.png[CDPlayButton] of the "ACTION - Build and Deploy a LivingApp to a non-production runtime" job.
++
+[NOTE]
+====
+If your repository contains a `uib/` directory, UIB applications are deployed automatically after the LivingApp deploy. +
+To skip UIB deployment for this run, uncheck the **`DEPLOY_UIB`** option. The LivingApp itself will still be deployed.
+====
 . Your default build and deploy configuration will be pre-loaded. If needed you can change it (includes the repository URL and branch)
 . Select the target AppRuntime (note that only non-production AppRuntimes are available - to deploy in production see xref:living-application//deploying-to-bonita-cloud.adoc[here])
 . If needed, you can fill xref:{bcdVersion}@bcd:ROOT:deployer.adoc#deployment_descriptor_file[the Deployment Descriptor] in the DEPLOY_JSON field to specify which resources have to be deployed, and with which policy. When used, if a deploy policy is declared in DEPLOY_JSON, it overrides the Development or Production Policies.
