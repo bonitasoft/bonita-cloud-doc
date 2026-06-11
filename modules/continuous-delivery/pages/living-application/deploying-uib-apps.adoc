@@ -32,6 +32,31 @@ If you need to **manually** deploy Bonita UI Builder applications **without rede
 . Click on the build button (lower left).
 . Monitor the job execution.
 
+== Deploying a single UIB application
+
+By default, the job deploys **all** UIB applications found in the `uib/` directory. If you only need to deploy or redeploy a **single application**, you can use the single-app deploy mode:
+
+. Enable the **"Deploy a single UIB application"** checkbox (`SINGLE_APP_DEPLOY`).
+. In the **"UIB application name"** field (`UIB_APPLICATION_NAME`), enter the **file name** of the application inside the `uib/` directory (e.g. `myapp.json`).
+. Proceed with the remaining steps as described in <<Launching a deployment manually>>.
+
+[NOTE]
+====
+When single-app mode is enabled, the job will:
+
+* **Update** the application if it already exists in the target AppRuntime.
+* **Create** it if it does not exist yet.
+
+All other UIB applications are left untouched.
+
+To deploy multiple applications selectively, run the job once per application.
+====
+
+[WARNING]
+====
+If **"Deploy a single UIB application"** is enabled but the **"UIB application name"** field is left empty, or if the specified file is not found in the `uib/` directory, the job will fail with an explicit error message.
+====
+
 == Result of a deployment
 
 === Successful Deployment
