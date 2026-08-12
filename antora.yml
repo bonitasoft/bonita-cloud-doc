@@ -5,6 +5,7 @@ asciidoc:
   attributes:
     bcdVersion: '4.0' # latest available maintenance version
     bonitaDocVersion: '2024.2'
+    cscRootUrl: 'https://csc.bonitacloud.ofelia.com/'
     # General site configuration
     page-editable: true
 nav:
